@@ -1,13 +1,3 @@
----
-# intentionally left blank
----
-
-{% include Sidebar.md %}
-
-{% include_relative Hiero.md %}
-
-{% capture my_include %}{% include Sidebar.md %}{% endcapture %}
-{{ my_include | markdownify }}
 
 ![logo](https://libgdx.com/assets/images/logo.png)
 

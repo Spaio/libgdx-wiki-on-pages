@@ -84,11 +84,17 @@ public class Main {
 
 						byte[] strToBytes = sb.toString().getBytes();
 
-						if (file.getName().startsWith("_")) {
-							String filename = file.getName().substring(1).toLowerCase();
+						String filename = file.getName();
+
+						if (filename.equals("Home.md")) {
+							filename = "index.md";
+						}
+
+						if (filename.startsWith("_")) {
+							filename = filename.substring(1).toLowerCase();
 							Files.write(Paths.get("_includes/" + filename), strToBytes);
 						} else {
-							Files.write(Paths.get("wiki/" + file.getName().toLowerCase()), strToBytes);
+							Files.write(Paths.get("wiki/" + filename.toLowerCase()), strToBytes);
 						}
 
 					} catch (IOException e) {

@@ -8,7 +8,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Main {
+public class WikiToPagesTranslator {
 
 	public static void main(String[] args) {
 		File[] files = new File("wiki_src/").listFiles();

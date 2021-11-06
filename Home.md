@@ -2,6 +2,8 @@
 #dsfdfs
 ---
 
+{% include Sidebar.md %}
+
 
 ![logo](https://libgdx.com/assets/images/logo.png)
 

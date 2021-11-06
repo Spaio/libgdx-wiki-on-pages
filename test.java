@@ -10,11 +10,6 @@ import java.util.regex.Pattern;
 
 public class Main {
 
-
-	// TO-DO строки надо транковать для ссылок
-	// Сделать для смежных |
-
-
 	public static void main(String[] args) {
 		File[] files = new File("wiki_src/").listFiles();
 		for (File file : files) {

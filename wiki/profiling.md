@@ -1,3 +1,4 @@
+{% raw %}
 This article describes the little helpers and utilities that might come in handy in case you are running into performance problems and need to start profiling your game.
 
 # FPSLogger
@@ -53,3 +54,5 @@ For linux, do:
 ```apitrace trace java -cp /home/me/my-app/desktop/build/libs/*.jar  -Dorg.lwjgl.opengl.libname=/usr/lib/apitrace/wrappers/glxtrace.so com.my.app.desktop.DesktopLauncher```
  
 Then just exit your app (if you want), run ```qapitrace``` and open that trace file.
+
+{% endraw %}

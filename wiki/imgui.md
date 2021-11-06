@@ -1,3 +1,4 @@
+{% raw %}
 An **alternative GUI for libGDX** is [Dear ImGui](https://github.com/ocornut/imgui), a bloat-free graphical user interface library in C++. It outputs optimized vertex buffers that you can render anytime in your 3D-pipeline enabled application. It is fast, portable, renderer agnostic and self-contained (few dependencies).
 
 _**There are a couple of different JVM bindings you can choose from: [kotlin-graphics/imgui](https://github.com/kotlin-graphics/imgui), [ice1000/jimgui](https://github.com/ice1000/jimgui) and [SpaiR/imgui-java](https://github.com/SpaiR/imgui-java).**_
@@ -111,3 +112,5 @@ ImGui.destroyContext();
 
 5. The result:
 <img src="https://i.imgur.com/cnfOMDR.png" alt="Screenshot of ImGui in libGDX" width="500"/>
+
+{% endraw %}

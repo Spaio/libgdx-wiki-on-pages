@@ -1,3 +1,4 @@
+{% raw %}
 * [Modifying the wrapper](#modifying-the-wrapper)
 * [Building the Java module](#building-the-java-module)
 * [Compiling the native Bullet libraries](#compiling-the-native-bullet-libraries)
@@ -49,3 +50,5 @@ The new native libraries will be automatically used for the desktop test suite, 
 ```
 gradlew tests:gdx-tests-lwjgl
 ```
+
+{% endraw %}

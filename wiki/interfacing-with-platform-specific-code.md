@@ -1,3 +1,4 @@
+{% raw %}
 Here's a [forum discussion](https://web.archive.org/web/20200427014652/https://www.badlogicgames.com/forum/viewtopic.php?f=11&t=9072&p=41323#p41323) on the matter, also mentioning iOS specific things.
 
 Sometimes it is necessary to access platform specific APIs, e.g., adding advertisement services or leaderboard functionality provided by frameworks such as [Swarm](http://swarmconnect.com/).
@@ -89,3 +90,5 @@ public static void main(String[] argv) {
    new LwjglApplication(new MyGame(new DesktopLeaderboard()), config);
 }
 ```
+
+{% endraw %}

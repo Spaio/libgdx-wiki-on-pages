@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction #
 
 libGDX has several linear algebra classes for dealing with common tasks in physics and applied math. These include:
@@ -78,3 +79,4 @@ matA.mul( matB );
 Quaternions are four-dimensional number systems which extend complex numbers. They have many esoteric uses in higher mathematics and number theory. Specifically in the context Libgdx the use of unit-quaternions can be useful for describing rotations in three-dimensional space, as they provide for simpler composition, numerical stability, and the avoidance of [gimbal lock](http://en.wikipedia.org/wiki/Gimbal_lock) making them preferable often to other methods of rotational representation which may variously fall short in these areas.
 
 Quaternions can be constructed by supplying their four components explicitly or by passing an axis-angle pair. Note that while a quaternion is often described as the combination of a vector and a scalar, **_it is not merely an axis-angle pair._** Libgdx also provide methods for converting between quaternions and the various other rotational representations such as Euler angles, rotation matrices, and axis-angle pairs.
+{% endraw %}

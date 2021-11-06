@@ -1,3 +1,4 @@
+{% raw %}
 ## <a id="Initializing_Bullet"></a>Initializing Bullet ##
 
 Before you can use Bullet, you’ll need to load the libraries. This can be done by adding the following line in your create method:
@@ -119,3 +120,4 @@ public void setWorldTransform (final Matrix4 worldTrans) {
 Where possible the wrapper uses direct ByteBuffer objects to pass arrays from Java to C++. This avoids copying the array on the call and allows you to share the same byte buffer for both OpenGL ES and Bullet. If needed you can create a new ByteByffer using `BufferUtils.newUnsafeByteBuffer`, which you should manually delete using `BufferUtils.disposeUnsafeByteBuffer`.
 
 In cases where ByteBuffer can't be used or is unwanted, a normal array is used. By default this means that the array is copied using iteration from Java to C++ at start of the method and copied back at the end of the method. To avoid this overhead the wrapper tries to use the Java array directly from within C++ where possible using critical arrays. During such method Java garbage collecting is blocked. An example of such method is `btBroadphasePairArray.getCollisionObjects`.
+{% endraw %}

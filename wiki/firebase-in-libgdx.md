@@ -1,3 +1,4 @@
+{% raw %}
 If you are interested in using [Firebase](https://firebase.google.com) with libGDX, take a look at mk-5's [gdx-fireapp](https://github.com/mk-5/gdx-fireapp).
 
 
@@ -38,3 +39,5 @@ Firebase Analytics should start working just after this step.
 
 ## Examples
 The project's wiki provides various examples. Check them out [here](https://github.com/mk-5/gdx-fireapp/wiki/Examples).
+
+{% endraw %}

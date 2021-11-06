@@ -1,3 +1,4 @@
+{% raw %}
 1. Compose a pick ray with and origin and direction:
 ```
 float viewportX = (2.0f * getMousePosX()) / viewportWidth - 1.0f;
@@ -16,3 +17,4 @@ gdxDirection.sub(gdxOrigin).nor();
 ```
 
 One way to do picking is to do CPU based collision math using [Euclid](https://github.com/ihmcrobotics/euclid), a performant and comprehensive vector math and geometry library.
+{% endraw %}

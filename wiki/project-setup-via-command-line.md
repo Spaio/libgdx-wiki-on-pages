@@ -1,3 +1,4 @@
+{% raw %}
 ## Creating a libGDX project using the command line
 
 This section describes how you can create a libGDX project from the command line. This is not required if you use the setup tool's wizard. The following arguments are to be specified:
@@ -13,3 +14,5 @@ This section describes how you can create a libGDX project from the command line
 Putting it all together, you can run the project generator on the command line as follows:
 
 `java -jar gdx-setup.jar --dir mygame --name mygame --package com.badlogic.mygame --mainClass MyGame --sdkLocation mySdkLocation [--excludeModules <modules>] [--extensions <extensions>]`
+
+{% endraw %}

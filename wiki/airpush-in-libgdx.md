@@ -1,3 +1,4 @@
+{% raw %}
 # Summary #
 
  * [Introduction](#introduction)
@@ -395,3 +396,4 @@ And Call SmartWall ads like this:
 ```java
 ar.startSmartWallAd();
 ```
+{% endraw %}

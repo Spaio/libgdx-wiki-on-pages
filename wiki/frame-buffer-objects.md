@@ -1,3 +1,4 @@
+{% raw %}
 Framebuffers allow users to render stuff to a texture instead of to the screen (= the backbuffer). This can prove useful in various ways, for example to perform post processing effects.
 
 ## How to use framebuffers
@@ -60,3 +61,4 @@ HdpiUtils.setMode(HdpiMode.Logical);
 
 ## Further resources
 - [A LWJGL tutorial regarding framebuffers (has a libGDX version of the used code as well)](https://github.com/mattdesl/lwjgl-basics/wiki/FrameBufferObjects)
+{% endraw %}

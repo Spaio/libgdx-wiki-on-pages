@@ -1,3 +1,4 @@
+{% raw %}
 libGDX can be used to render to virtual reality headsets using LWJGL's OpenVR (HTC Vive) and OVR (Oculus) modules.
 
 ### Required Dependencies
@@ -57,3 +58,4 @@ GLFW.glfwTerminate();
 ### Roadmap
 
 VR support might become easier relatively soon via the use of [OpenXR](https://www.khronos.org/openxr/). The LWJGL project [plans to support this in the future](https://github.com/LWJGL/lwjgl3/issues/569#issuecomment-643830566). This would remove the need to support both OVR and OpenVR and instead just using OpenXR to support all hardware.
+{% endraw %}

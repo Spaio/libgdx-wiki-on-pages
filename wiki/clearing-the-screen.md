@@ -1,3 +1,4 @@
+{% raw %}
 To clear the screen in libGDX is not unlike clearing the screen in a regular OpenGL application. The only difference is in how one accesses the OpenGL context.
 
 The following example accesses the context in an OpenGL ES2 application to clear the frame and depth buffers, setting the color buffer to a solid red color:
@@ -14,3 +15,4 @@ public void render() {
 ```
 
 Simply set the desired clear color and then call `glClear()` with the desired buffers to clear. You are then free to render a fresh frame with new scene graphics.
+{% endraw %}

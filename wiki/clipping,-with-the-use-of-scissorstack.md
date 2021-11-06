@@ -1,3 +1,4 @@
+{% raw %}
 # Clipping #
 
 ```java
@@ -15,3 +16,4 @@ This will limit rendering to within the bounds of the rectangle "clipBounds". Th
 You may also need to flush or end the `spriteBatch` before starting the active scissor region (that is, before calling `ScissorStack.pushScissors`) to prevent queued draw calls from before the scissor start getting flushed inside the active scissor region.
 
 It is also possible to push multiple rectangles. Only the pixels of the sprites that are within <b>all</b> of the rectangles will be rendered.
+{% endraw %}

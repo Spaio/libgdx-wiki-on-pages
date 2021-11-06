@@ -1,3 +1,4 @@
+{% raw %}
 * [Basic ParticleEffect usage](#basic-particleeffect-usage)
 * [Efficiently using ParticleEffects](#efficiency)
 * [Examples](#examples)
@@ -159,3 +160,4 @@ batch.end();
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=LCLa-rgR_MA
 " target="_blank"><img src="http://img.youtube.com/vi/LCLa-rgR_MA/0.jpg" 
 alt="libgdx 2D Particle Effects" width="480" height="360" border="10" /></a>
+{% endraw %}

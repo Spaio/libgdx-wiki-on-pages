@@ -1,3 +1,4 @@
+{% raw %}
 ###  ###
 
 The mechanism to deploy your game differs between platforms. This article aims to articulate, what is necessary to deploy to each platform that libGDX officially supports:
@@ -95,3 +96,5 @@ You can then open a browser to [http://localhost:8000](http://localhost:8000) an
 With Node.js `npm install http-server -g` then `http-server html/build/dist` and browse at <http://localhost:8080>. [docs](https://github.com/indexzero/http-server)
 
 With PHP you may type `php -S localhost:8000` and browse at <http://localhost:8080>. [docs](http://php.net/manual/en/features.commandline.webserver.php)
+
+{% endraw %}

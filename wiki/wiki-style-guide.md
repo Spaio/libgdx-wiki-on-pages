@@ -1,3 +1,4 @@
+{% raw %}
 This page is a notice on how to edit libGDX wiki pages. Please read this before contributing to the libGDX wiki.
 
 
@@ -100,3 +101,5 @@ Github does NOT have a robust pull request system for wiki changes, so this is t
 
 ### Small Typo Fixes ###
 Github wiki's diff system is not as robust as the diff system for code. If you make a tiny change, in the commit message please say "Fixed typo alpa -> alpha" or something of the sort.
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 A Model (and ModelInstance) can contain one or more animations. An animation is a sequence (keyframes) of transformations which are applied to one or more nodes of the model. Each animation is identified by it's name (id), which must be unique within the model. E.g. you might have character with an animation called "walk" and "attack". This page describes how to load and use animations within your application.
 
 Skinning can be used to deform the model (mesh) based on the transformation of one or more nodes. This is commonly used conjunction with animations. The page also describes how to use skinning within your application.
@@ -92,3 +93,5 @@ DefaultShader.Config config = new DefaultShader.Config();
 config.numBones = 16;
 modelBatch = new ModelBatch(new DefaultShaderProvider(config));
 ```
+
+{% endraw %}

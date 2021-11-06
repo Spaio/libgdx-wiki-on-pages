@@ -1,3 +1,4 @@
+{% raw %}
 ## <a id="Using_models"></a>Using models ##
 [`Model`](https://github.com/libgdx/libgdx/wiki/Models) and `ModelInstance` are typically used for the visual representation of objects. `btCollisionObject` or `btRigidBody` are used for the physical representation of these objects.
 
@@ -66,3 +67,5 @@ For the case of a static model, the Bullet wrapper provides a convenient method 
 btCollisionShape shape = Bullet.obtainStaticNodeShape(model.nodes);
 ```
 In this case the collision shape will share the same data (vertices) as the model. This will include [node transformation](https://github.com/libgdx/libgdx/wiki/Models#node-transformation) by using a `btCompoundShape` if needed, but will not include any scaling applied to nodes.
+
+{% endraw %}

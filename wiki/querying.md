@@ -1,3 +1,4 @@
+{% raw %}
 The `Application` interface provides various methods to query properties of the run-time environment.
 
 ### Getting the Application Type ###
@@ -38,3 +39,4 @@ long nativeHeap = Gdx.app.getNativeHeap();
 Both methods return the number of bytes currently in use on the respective heap.
 
 [Prev](starter-classes-and-configuration) | [Next](logging)
+{% endraw %}

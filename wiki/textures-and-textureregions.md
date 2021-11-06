@@ -1,3 +1,4 @@
+{% raw %}
 use a [Spritebatch, Textureregions, and Sprites](spritebatch,-textureregions,-and-sprites)
 
 # TextureRegion
@@ -19,3 +20,4 @@ public void render(float deltaTime)
   spriteBatch.end();
 }
 ```
+{% endraw %}

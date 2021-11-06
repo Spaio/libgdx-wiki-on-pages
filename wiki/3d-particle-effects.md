@@ -1,3 +1,4 @@
+{% raw %}
 Because of issues with perspective and depth, the 2D particle effects are not suitable for 3D applications.  Additionally, the 3d particle effects take full advantage of movement through 3d space, allowing a wide variety of dynamic graphical effects.
 
 [images/flamedemo.gif](images/flamedemo.gif)
@@ -137,3 +138,4 @@ Emitter emitter = pfx.getControllers().first().emitter;
 
 ### Simple examples
 A simplified example of the above GdxTest.java can be found [here](https://github.com/SeanFelipe/SimpleParticles3d/blob/master/java/core/src/sbourges/game/gdxtest/GdxTest.java).
+{% endraw %}

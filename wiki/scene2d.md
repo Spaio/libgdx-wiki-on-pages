@@ -1,3 +1,4 @@
+{% raw %}
 ## Overview ##
 
 scene2d is a 2D scene graph for building applications and UIs using a hierarchy of actors. If you're looking for the UI component of scene2d, see [Scene2d.ui](scene2d.ui)
@@ -339,3 +340,4 @@ actor.addAction(forever(sequence(scaleTo(2, 2, 0.5f), scaleTo(1, 1, 0.5f), delay
  * [gdx-ui-app](https://github.com/broken-e/gdx-ui-app) A library on top of scene2d for easier development.
  * [Should I use scene2d for my game?](https://jvm-gaming.org/t/libgdx-actor-to-use-or-not-to-use-or-when-to-use/41938/7)
  * [Street Race game tutorial](http://theinvader360.blogspot.co.uk/2013/05/street-race-swipe-libgdx-scene2d.html)
+{% endraw %}

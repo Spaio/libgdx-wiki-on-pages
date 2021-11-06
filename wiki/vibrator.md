@@ -1,3 +1,4 @@
+{% raw %}
 While not strictly an input device, it nevertheless is a kind of a peripheral. We felt it belonged in the input model.
 
 The vibrator allows you to vibrate the phone of a user. This can be used similar to more sophisticated force feedback functionality found commonly in game console controllers.
@@ -27,3 +28,4 @@ Gdx.input.vibrate(new long[] { 0, 200, 200, 200}, -1);
 This will turn the vibrator on for 200 milliseconds, then turn it off for 200 milliseconds then on again for another 200 milliseconds. The second parameter specifies that the pattern should not be repeated. Refer to the [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/Input.html#vibrate(int)) for more information.
 
 [Prev](compass) | [Next](cursor-visibility-and-catching)
+{% endraw %}

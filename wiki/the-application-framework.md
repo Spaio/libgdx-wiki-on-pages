@@ -1,3 +1,4 @@
+{% raw %}
 ## Modules ##
 At its core, libGDX consists of six interfaces that provide means to interact with the operating system. Each back-end implements these interfaces.
 
@@ -52,3 +53,4 @@ AudioDevice audioDevice = Gdx.audio.newAudioDevice(44100, false);
 
 
 [Next](the-life-cycle)
+{% endraw %}

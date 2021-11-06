@@ -1,3 +1,4 @@
+{% raw %}
 ### Why would I want to use the AssetManager
 
 [AssetManager](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/assets/AssetManager.html) [(code)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/assets/AssetManager.java) helps you load and manage your assets. It is the recommended way to load your assets, due to the following nice behaviors:
@@ -244,3 +245,4 @@ In your ApplicationListener.resume() method you can then switch to your loading 
 If you don't set the AssetManager as shown in the last snippet, the usual managed texture mechanism will kick in, so you don't have to worry about anything.
 
 And this concludes the long awaited article on the AssetManager. 
+{% endraw %}

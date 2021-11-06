@@ -1,3 +1,4 @@
+{% raw %}
  * [Introduction](#introduction)
  * [Background](#background)
  * [Distributions](#distributions)
@@ -67,3 +68,5 @@ JDK will be fixed or supported by the companies involved in the JDK maintenance.
 
 # Distributions # 
 JDKs Distribution info can be found here [sdkman.io - JDKs](https://sdkman.io/jdks).
+
+{% endraw %}

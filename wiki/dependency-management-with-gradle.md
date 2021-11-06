@@ -1,3 +1,4 @@
+{% raw %}
 ## Contents
 
 * [**Useful links**](#useful-links)
@@ -641,3 +642,4 @@ This guide uses everything that is explained in this article to add the Universa
 ### Dependency management for libraries
 If you're creating a library that people can include in their projects via gradle, you might need to replace the _implementation_ keyword by _api_.
 Any dependency of your library that you declare with _api_ will be visible and usable by others that depend on your library while _implementation_ makes it only accessible for you.
+{% endraw %}

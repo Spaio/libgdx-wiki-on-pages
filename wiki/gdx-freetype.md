@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction #
 
 If you want to draw text in your game, you usually use a [BitmapFont](bitmap-fonts).
@@ -109,3 +110,5 @@ Quoting from https://web.archive.org/web/20201128081723/https://www.badlogicgame
 ----
 
 Download an [example](https://hg.sr.ht/~dermetfan/somelibgdxtests)
+
+{% endraw %}

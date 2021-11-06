@@ -1,3 +1,4 @@
+{% raw %}
 A [mesh](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/Mesh.html) is a collection of vertices (and optionally indices) which describe a batch of geometry for rendering. The vertices are held either in VRAM in form of vertex buffer objects (VBOs) or in RAM in form of vertex arrays. VBOs are faster and are used by default if the hardware supports it. Like [Textures](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/Texture.html), meshes are managed and will be automatically reloaded when the context is lost.
 
 Meshes are used by many core graphics classes in Libgdx, such as [SpriteBatch](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g2d/SpriteBatch.html) and [DecalBatch](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/decals/DecalBatch.html) as well as the various 3D format loaders. A key design principle of libGDX is in storing geometry in a mesh in order to upload all vertex information in one batch for rendering. Especially on mobile platforms, there are significant performance gains in batching by reducing the overhead of individual draw calls.
@@ -69,3 +70,4 @@ mesh.render( shader, GL20.GL_LINES );       // renders lines instead
 ```
 
 By default, a mesh will auto-bind its data upon a call to `render()`. Prior to calling `render()`, you will need to bind the texture and set model transformations and if using OpenGL ES2 you will need bind an appropriate [Shaders](shaders) and pass whatever uniforms it requires.
+{% endraw %}

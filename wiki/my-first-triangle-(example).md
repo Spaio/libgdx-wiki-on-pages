@@ -1,3 +1,4 @@
+{% raw %}
 Note: The following article is outdated and no longer works due to the exclusion of GL10 in the latest libGDX. Please use [the following instead](https://github.com/mattdesl/lwjgl-basics/wiki/LibGDX-Meshes-Lesson-1).
 
 # Summary
@@ -205,3 +206,4 @@ That's it for your first triangle. To learn more about the fundamentals of the l
   * `MyFirstTriangle` class is now importing `com.badlogic.gdx.Gdx`
   * updated the `MyFirstTriangle_<date>.zip` source files for this guide
   * added screen shots
+{% endraw %}

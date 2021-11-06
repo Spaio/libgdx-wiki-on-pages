@@ -1,3 +1,4 @@
+{% raw %}
 Games are resource heavy applications. Images and sound effects can take up a considerable amount of RAM. Also, most of these resources are not managed by the Java garbage collector. Instead they are managed by native drivers. Having the garbage collector decide when to release a 5 megabyte texture from video ram wouldn't be a too bright idea either.
 
 We want fine grained control over the life-time of our resources. There are multiple classes in libGDX which represent such resources. They all implement a common [Disposable](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/utils/Disposable.html) interface which indicates that instances of this class need to be disposed of manually at the end of the life-time. **Failure to dispose resources will lead to severe memory leaks!**.
@@ -155,3 +156,5 @@ Beware of leaking references to Pooled objects.  Just because you invoke "free" 
 ### Profiling Memory leaks
 
 If you're encountering memory leaks, tools like [VisualVM](https://visualvm.github.io/) (free) and [JProfiler](https://www.ej-technologies.com/products/jprofiler/overview.html) (trial/paid) prove useful in tracking down the issue. These memory profilers will tell you what type of object is eating up the memory. From there on you can start tracking down the leak.
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 # What is what (GL, GL ES, GLSL)?
 
 Whenever libGDX is talking about GL20 or GL30, it is in fact referring to GL ES 2.0 and GL ES 3.0. OpenGL ES can be seen as a subset of OpenGL and is designed for embedded systems (smartphones in particular).
@@ -89,3 +90,4 @@ This will define the LOWP, MED, and HIGH macros to equivalent OpenGL ES precisio
 * [OpenGL ES 2.0 Specification](http://www.khronos.org/registry/gles/#specs2 "OpenGL ES 2.0 Specification")
 * [OpenGL ES Programming Guide for iOS](https://developer.apple.com/library/ios/documentation/3DDrawing/Conceptual/OpenGLES_ProgrammingGuide/Introduction/Introduction.html "OpenGL ES Programming Guide for iOS"): the core concepts are valid for other platforms as well
 * [OpenGL ES 2.0 Pipeline Structure](http://en.wikibooks.org/wiki/OpenGL_Programming/OpenGL_ES_Overview#OpenGL_ES_2.0_Pipeline_Structure "OpenGL ES 2.0 Pipeline Structure")
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 For some games like first person shooters, it is often necessary to catch the cursor so it stays in the center of the screen, and only use position deltas to rotate the camera. Other times we might want to position the cursor manually. Both things can be done as follows:
 
 ```java
@@ -35,3 +36,4 @@ Supported system cursors are the
 cursors.
 
 [Prev](vibrator) | [Next](back-and-menu-key-catching)
+{% endraw %}

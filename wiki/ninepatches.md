@@ -1,3 +1,4 @@
+{% raw %}
 This article introduce NinePatch images, how they can be created and how they
 are used in a libGDX context.
 
@@ -154,3 +155,4 @@ When this is the only picture from the _export_-folder run in the SkinPacker the
 ```
 
 We see that the packer actually defined nine patches (somebody should be mind blown by now!). One huge advantage with this is that we are no longer constrained to the 1 square for each region (as opposed to instantiate Ninepatches manually). We can now define more fine-grained nine patches. In addition to this, its much easier to just alter an image and run it through the packer, and it will define regions.
+{% endraw %}

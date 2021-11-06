@@ -1,3 +1,4 @@
+{% raw %}
 Clojure is a dialect of Lisp, written for the JVM and with functional programming in mind. Clojure comes with native Java interoperability, making it able to leverage the powerful existing libraries in the Java ecosystem. [ClojureTV on YouTube](http://www.youtube.com/user/ClojureTV) has a lot of good videos, specifically [Clojure for Java Programmers](http://www.youtube.com/watch?v=P76Vbsk_3J0) [(Part 2)](http://www.youtube.com/watch?v=hb3rurFxrZ8).
 
 ## project setup ##
@@ -130,3 +131,4 @@ This will display a label on the bottom left corner, which you can see by runnin
 
 * The [play-clj tutorial](https://github.com/oakes/play-clj/blob/master/TUTORIAL.md) provides a more in-depth walk-through on how to use the library.
 * The [Nightmod](https://sekao.net/nightmod/) game tool provides an easier way to use play-clj by integrating the game and the text editor together so you can see instant results when you save your code.
+{% endraw %}

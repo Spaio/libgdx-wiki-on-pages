@@ -1,3 +1,4 @@
+{% raw %}
 2D Animation is a technique used to create the illusion of movement using static images. This article describes how to create animations with libGDX using its [Animation Class](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g2d/Animation.html).
 
 ## Background ##
@@ -122,3 +123,5 @@ Creating an animation is extremely simple by using the following constructor.
 ## Assets ##
 
 Get the sprite sheet [here](images/sprite-animation4.png).
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 Most Android devices and all iOS devices do not possess a hardware keyboard. Instead, a soft- or on-screen keyboard can be presented to the user. To bring up the on-screen keyboard we can call this method:
 
 ```java
@@ -11,3 +12,4 @@ Note that there is currently a bug in the on-screen keyboard implementation when
 On-screen keyboard functionality is only available the Android and iOS platforms.
 
 [Prev](back-and-menu-key-catching)
+{% endraw %}

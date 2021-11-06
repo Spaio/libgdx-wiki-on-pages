@@ -1,3 +1,4 @@
+{% raw %}
 Event handling allows you to get more granular and most of all chronological information about input from the user. Event handling provides a way to implement interactions with user interfaces, where specific input sequences are important, e.g. touch down, touch up on a button means the user clicked the button. Such interactions are hard to implement with polling.
 
 ## Input Processor ##
@@ -163,3 +164,4 @@ Then, in your Input processor:
 ```
 
 [Prev](polling) | [Next](controllers)
+{% endraw %}

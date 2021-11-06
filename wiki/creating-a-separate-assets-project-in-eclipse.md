@@ -1,3 +1,4 @@
+{% raw %}
 This will walk you through step by step on how to setup a separate project to manage your assets in Eclipse, and is a great solution if you like to keep your assets separate from your code projects. Doing so will allow you to manage them in source control differently or not at all. Additionally, you can have a nice clean separate builder for your assets project should your game be involved enough.\*
 
 The only downside I've found is that unless you modify each project's builder to check for updates to your Assets Project, you will have to refresh (F5) the project before clicking Run, as Eclipse won't auto-detect changes to most files in the separate Assets Project. No big deal.
@@ -50,3 +51,4 @@ My MyGame-Assets projects usually look like the following tree, with organized s
 
 
 \* I wouldn't recommend setting up a builder for just your assets until it makes sense, which is usually at the later stages of a game's development cycle. Keep it simple and real until you're closing in on production ready, determine if you absolutely need it, isolate what works best, and only THEN isolate how to optimize the packaging of your assets. At that point, you'll be able to measure the effects and maximize your effort to results ratio.
+{% endraw %}

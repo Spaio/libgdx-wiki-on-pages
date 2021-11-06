@@ -1,3 +1,4 @@
+{% raw %}
 A libGDX application has a well defined life-cycle, governing the states of an application, like creating, pausing and resuming, rendering and disposing the application.
 
 ## ApplicationListener
@@ -49,3 +50,4 @@ libGDX is event driven by nature, mostly due to the way Android and Javascript w
 [libGDX and Android lifecycle](http://bitiotic.com/blog/2013/05/23/libgdx-and-android-application-lifecycle/) if you are aiming for Android. The article also explains why you should not use static variables.
 
 [Prev](the-application-framework) | [Next](modules-overview)
+{% endraw %}

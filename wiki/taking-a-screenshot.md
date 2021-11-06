@@ -1,3 +1,4 @@
+{% raw %}
 Screenshots are easy in LibGDX!
 
 ## Post processing to guarantee clarity
@@ -27,3 +28,4 @@ Pixmap pixmap = ScreenUtils.getFrameBufferPixmap(0, 0, Gdx.graphics.getWidth(), 
 PixmapIO.writePNG(Gdx.files.external("mypixmap.png"), pixmap, Deflater.DEFAULT_COMPRESSION, true);
 pixmap.dispose();
 ```
+{% endraw %}

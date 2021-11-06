@@ -1,3 +1,4 @@
+{% raw %}
 # Gesture Detection #
 Touch screens lend themselves well to gesture based input. A gesture could be a pinch with two fingers to indicate the desire to zoom, a tap or double tap, a long press and so on.
 
@@ -81,3 +82,4 @@ As with the events reported to a normal `InputProcessor`, the respective methods
 The `GestureDetector` also has a second constructor that allows it to specify various parameters for gesture detection. Please refer to the [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/input/GestureDetector.html#GestureDetector(float,%20float,%20float,%20float,%20com.badlogic.gdx.input.GestureDetector.GestureListener)) for more information.
 
 [Prev](controllers) | [Next](simple-text-input)
+{% endraw %}

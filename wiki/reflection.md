@@ -1,3 +1,4 @@
+{% raw %}
 # Reflection #
 <sub>Available since libGDX version 0.9.9.</sub>
 
@@ -50,3 +51,4 @@ You can also exclude classes of packages (for example when you include a package
   * Nested classes cannot be included directly. If, e.g., you want to have `CustomActor$CustomActorStyle` available for reflection (maybe to be used in uiskin.json), just include the parent class (i.e. CustomActor in this example)
   * Visibility restrictions may cause the compiler to not include your class in the IReflectionCache. Public visibility is therefore recommended.
   * `static` fields cannot be accessed directly via `field.get(Example.class);`, instance must be passed in as a parameter `field.get(new Example());`
+{% endraw %}

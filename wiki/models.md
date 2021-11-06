@@ -1,3 +1,4 @@
+{% raw %}
 A model represents a 3D asset consisting of a hierarchy of nodes, where each node is a combination of a geometry (mesh) and material. Optionally a model can also contain information about [animation and/or skinning](https://github.com/libgdx/libgdx/wiki/3D-animations-and-skinning).
 
 A model is not intended to be rendered directly. Instead you should create one or more ModelInstances of a Model, which are used for the actual rendering. The structure of a ModelInstance is roughly the same as a Model.
@@ -23,3 +24,5 @@ A model consists of one or more meshes and in most cases one or more textures. B
 To get the list of Disposables a model is responsible for, use the `getManagedDisposables()` method. To programmatically make a model responsible for a resource, use the `manageDisposable(Disposable)` method. For example, when changing the texture of a model and you want the texture to be disposed when the model is disposed.
 
 Because a model is responsible for its resources, it is recommended to keep them separated. For example, it is not advised to share resources amongst multiple models. Instead, in most cases it is possible to combine models completely (prior to loading or building them) or to share resources amongst ModelInstances instead of Models.
+
+{% endraw %}

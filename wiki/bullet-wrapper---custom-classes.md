@@ -1,3 +1,4 @@
+{% raw %}
 In some cases it's not possible to wrap a C++ bullet class/method in a Java class/method, in which case a custom class or method is used to bridge the two. The following list describes those. Note that the list might not be complete.
 
 ### <a id="btCollisionObject"></a>btCollisionObject ###
@@ -102,3 +103,5 @@ raycaster.setCollisionFilterGroup(FILTER_GROUP);
 raycaster.setCollisionFilterMask(FILTER_MASK);
 btRaycastVehicle vehicle = new btRaycastVehicle(vehicleTuning, chassis, raycaster);
 ```
+
+{% endraw %}

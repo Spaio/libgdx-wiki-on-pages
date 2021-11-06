@@ -1,3 +1,4 @@
+{% raw %}
 Python is a dynamic and strongly typed language that supports many programming paradigms, such as procedural, object oriented, and functional programming.
 
 Python has been implemented in several different ways; the standard interpreter in C (CPython), in python itself (PyPy), in the .Net Dynamic Language Runtime (C#) (IronPython), and in Java on the Java Virtual Machine (Jython). Jython comes with java interoperability; allowing it to leverage powerful java libraries, such as Libgdx, while keeping the succinctness and readability of Python.
@@ -139,3 +140,5 @@ if __name__ == '__main__':
 ## Games written in Python using libGDX ##
 
 * none (yet! if you have made a game using python in libgdx, please let me know and edit this article!)
+
+{% endraw %}

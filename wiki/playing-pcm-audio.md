@@ -1,3 +1,4 @@
+{% raw %}
 The audio module can provide you direct access to the audio hardware for writing [PCM samples](http://en.wikipedia.org/wiki/Pulse-code_modulation) to it.
 
 The audio hardware is abstracted via the [AudioDevice](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/audio/AudioDevice.html) [(source)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/audio/AudioDevice.java) interface. 
@@ -39,3 +40,4 @@ device.dispose();
 ```
 
 Direct PCM output is not supported in the JavaScript/WebGL backend.
+{% endraw %}

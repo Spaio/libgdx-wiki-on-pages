@@ -1,3 +1,4 @@
+{% raw %}
 * [Introduction](#introduction)
 * [Platform Filesystems](#platform-filesystems)
 * [File (Storage) Types](#file-storage-types)
@@ -212,3 +213,4 @@ Gdx.files.local("mylocalcopy.txt").delete();
 Note that source and target can be files or directories. 
 
 For more information on available methods, check the [FileHandle Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/files/FileHandle.html).
+{% endraw %}

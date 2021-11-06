@@ -1,3 +1,4 @@
+{% raw %}
 libGDX is currently published to the SonaType snapshot repository. This will continue to happen until the Maven integration is complete. The repository only contains the latest snapshot release for now. Eventually we will publish release builds to SonaType as well.
 
 Add the following to your settings.xml or your project's pom.xml:
@@ -152,3 +153,5 @@ To run the android project, create a new configuration, this time selecting Andr
 [images/maven3.png](images/maven3.png)
 
 Launch this configuration to run your app on your Android device or emulator.
+
+{% endraw %}

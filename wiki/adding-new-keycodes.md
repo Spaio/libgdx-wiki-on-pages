@@ -1,3 +1,4 @@
+{% raw %}
 ## Short info on how to add new keycodes:
 
 - Add the keycodes to `Input.Keys` (don't forget to define `Input.Keys.toString()` for the new codes).
@@ -13,3 +14,4 @@ If you follow these steps, merge is highly likely.
 For any controller issues, take a look at the [gdx-controllers repo](https://github.com/libgdx/gdx-controllers).
 
 From [MrStahlfelge](https://github.com/MrStahlfelge)'s [comment](https://github.com/libgdx/libgdx/issues/5389#issuecomment-730477319) at: [#5389](https://github.com/libgdx/libgdx/issues/5389)
+{% endraw %}

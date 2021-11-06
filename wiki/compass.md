@@ -1,3 +1,4 @@
+{% raw %}
 Some Android devices and iOS devices have an integrated magnetic field sensor that provides information on how the device is oriented with respect to the magnetic north pole.
 
 NOTE: The compass is currently not available on iOS devices since there is no implementation in the RoboVM - backend yet. The compass appears to be present with the Intel MOE backend on iOS.
@@ -27,3 +28,4 @@ Here's an illustration of the axis relative to the earth.
 [images/compass.png](images/compass.png)
 
 [Prev](accelerometer) | [Next](vibrator)
+{% endraw %}

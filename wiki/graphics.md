@@ -1,3 +1,4 @@
+{% raw %}
 # REWRITE THIS #
 This page needs to be rewritten.
 
@@ -40,3 +41,4 @@ Another useful method is `getFramesPerSecond()`, which returns a running average
 On the desktop, the Graphics class also provides the ability to set a window's icon and title values. Obviously these methods have no effect on platforms which lack an icon or title.
 
 The methods `setDisplayMode()` and `setVSync()` set the display mode to full-screen/windowed and enable/disable vertical display sync respectively. Keep in mind these methods have effects only on certain platforms.
+{% endraw %}

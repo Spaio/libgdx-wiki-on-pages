@@ -1,3 +1,4 @@
+{% raw %}
 Hiero is a bitmap font packing tool. It saves in the [Angel Code font](http://www.angelcode.com/products/bmfont/) format, which can be used by [BitmapFont](bitmap-fonts) in libGDX applications.
 
 ![](https://i.imgur.com/uLOncZF.png)
@@ -105,3 +106,4 @@ The [bmglyph](http://www.bmglyph.com//) tool is for OS X only and hasn't been ev
 ### Littera ###
 
 http://kvazars.com/littera/
+{% endraw %}

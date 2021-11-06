@@ -1,3 +1,4 @@
+{% raw %}
  * [Overview](#overview)
  * [Resources](#resources)
  * [Convenience methods](#convenience-methods)
@@ -216,3 +217,4 @@ It is very useful to tint regions various colors. For example, the regions for a
 ```
 
 This makes a copy of the drawable named "round", tints it green, and adds it to the skin as a drawable under the name "round-green".
+{% endraw %}

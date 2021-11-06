@@ -1,3 +1,4 @@
+{% raw %}
 ## Outdated ##
 Refer to this page: https://github.com/libgdx/libgdx/wiki/3D-Graphics
 
@@ -221,3 +222,5 @@ The one last thing thing we need to do is to add the image file to the Android w
 ## Conclusion ##
 
 There are several resources to learn more about meshes, colors, and textures. In the [http://code.google.com/p/libgdx/downloads/list Downloads page], you can get the source code of the game Invaders, which uses these element more extensively. The Javadoc is quite complete, and provides better details on the requirements of different classes and methods. Check out [this](https://github.com/libgdx/libgdx/wiki/File-handling) entry for more information about file access within libGDX.
+
+{% endraw %}

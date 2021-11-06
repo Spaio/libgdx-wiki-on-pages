@@ -1,3 +1,4 @@
+{% raw %}
 This page presents the [OrthographicCamera](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/OrthographicCamera.html) class and usage. 
 The orthographic camera is to be used in 2D environments only as it implements a parallel (orthographic) projection and there will be no scale factor for the final image regardless where the objects are placed in the world.
 
@@ -390,3 +391,4 @@ Most of the time, one should not need to access the internals of a camera as the
 | `translate(float x, float y, float z)` | Moves the camera by the given amount on each axis. - Note that z is ignored for the OrthographicCamera |
 | `rotate(float angle, float axisX, float axisY, float axisZ)` | Rotates the direction and up vector of this camera by the given angle around the given axis. The direction and up vector will not be orthogonalized. The angle is persisted so the camera will be rotated by `angle` relative to its previous rotation.|
 | `update()` |  Recalculates the projection and view matrix of the camera and the frustum planes |
+{% endraw %}

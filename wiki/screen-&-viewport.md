@@ -1,3 +1,4 @@
+{% raw %}
 # fixme: weird image issues.
 
 Every application or game that uses graphics, needs to work with the screen in a way. This page describes the different projections (for 2D and 3D) and how to set them up with libGDX.
@@ -24,3 +25,5 @@ The following diagram shows the orthogonal projection.
 For examples on how to work with the viewport, refer to [this page](projection,-viewport,-&-camera) where the notions are presented extensively with great examples.
 
 To learn how to use the [Orthographic Camera](orthographic-camera) for simple 2D worlds.
+
+{% endraw %}

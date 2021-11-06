@@ -1,3 +1,4 @@
+{% raw %}
 # Lists #
 
 ## [Array](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/utils/Array.html) [(code)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/utils/Array.java) ##
@@ -126,3 +127,4 @@ If you have less than 1024 elements in a list, you shouldn't bother whether you'
                        65536                       403ms                         0ms
                       131072                       615ms                         1ms
 ```
+{% endraw %}

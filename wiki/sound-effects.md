@@ -1,3 +1,4 @@
+{% raw %}
 Sound effects are small audio samples, usually no longer than a few seconds, that are played back on specific game events such as a character jumping or shooting a gun.
 
 Sound effects can be stored in various formats. libGDX supports MP3, OGG and WAV files.
@@ -43,3 +44,4 @@ sound.dispose();
 ```
 
 Accessing the sound after you disposed of it will result in undefined errors.
+{% endraw %}

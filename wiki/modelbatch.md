@@ -1,3 +1,4 @@
+{% raw %}
 [ModelBatch](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelBatch.html) ([code](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/ModelBatch.java)) is a class used for managing render calls. It is typically used to render instances of [models](https://github.com/libgdx/libgdx/wiki/Models), although it is not restricted to models. The ModelBatch class abstracts away all rendering code, providing a layer on top of it and allowing you to focus on more game specific logic. Every part of the ModelBatch functionality is customizable by design.
 
 **Caution:** because ModelBatch manages the render calls and therefore the rendering context, you should not try to manually modify the render context (e.g. bind shaders, texture or meshes, or call any function starting with `gl`) in between the `ModelBatch.begin()` and `ModelBatch.end()` calls. This will not work and might cause unpredictable behavior. Instead use the customization options that ModelBatch offers.
@@ -228,3 +229,4 @@ program.setUniformi(uniformLocation, context.textureBinder.bind(
     (TextureAttribute)(renderable.material.get(TextureAttribute.Diffuse)))
         .textureDescription));
 ```
+{% endraw %}

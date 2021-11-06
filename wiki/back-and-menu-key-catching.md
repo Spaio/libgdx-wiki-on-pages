@@ -1,3 +1,4 @@
+{% raw %}
 When a user presses the back button on an Android device, this usually kills the currently running activity. Games might chose to display a confirmation dialog before letting the user exit. For that to work one needs to catch the back key so it is not passed on to the operating system:
 
 ```java
@@ -28,3 +29,4 @@ Gdx.input.setCatchKey(Input.Keys.MENU, true);
 There might be other keys to catch as well. You should catch all keys used to control your game to tell the operating system to prevent triggering behaviour outside your apps. This could affect media control keys on Android TV, and some general keys if you target HTML5 as well (see [HTML 5 specifics article](https://github.com/libgdx/libgdx/wiki/HTML5-Backend-and-GWT-Specifics#preventing-keys-from-triggering-scrolling-and-other-browser-functions) for more information)
  
 [Prev](cursor-visibility-and-catching) | [Next](on-screen-keyboard)
+{% endraw %}

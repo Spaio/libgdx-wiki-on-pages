@@ -1,3 +1,4 @@
+{% raw %}
 The [libGDX community](https://libgdx.com/community/) is glad to help you when you get stuck or encounter a bug, but we need your help to make it as easy to help you as possible.
 
 ## Contents
@@ -224,3 +225,5 @@ Begging for help or a quick answer tends to turn people off and makes it less li
 ## <a id="Formatting"></a>Formatting ##
 
 If you spend a little bit of your time to format your post nicely, it is more likely others will spend their time responding to your post. This means capital letters where appropriate, paragraphs to separate ideas, use actual words (rather than "u", "bcoz", etc), put code in code blocks, etc. If English is not your first language, we understand. No need to apologize, just do your best to make an effort.
+
+{% endraw %}

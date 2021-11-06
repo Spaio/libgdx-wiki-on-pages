@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction #
 
 libGDX provides methods to playback small sound effects as well as stream larger music pieces directly from disk. It also provides convenient read and write access to the audio hardware.
@@ -27,3 +28,5 @@ Generally speaking, Audio on Android is problematic and there may be other scena
 
 In an attempt to fix some of these issues Google created [Oboe](https://github.com/google/oboe) that can be used on libGDX projects thanks to [libGDX Oboe](https://github.com/barsoosayque/libgdx-oboe).
 
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 # Deploying as an Applet #
 
 ## Rationale ##
@@ -160,3 +161,4 @@ Now, we should be able to run in all major browsers with Resize!
 ## TODO:  Game -> Browser JS communication ##
 ## TODO:  Browser JS -> Game communication ##
 ## TODO:  JAR Packing ##
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 For any sound that's longer than a few seconds it is preferable to stream it from disk instead of fully loading it into RAM. libGDX provides a Music interface that lets you do that.
 
 To load a Music instance we can do the following:
@@ -34,3 +35,4 @@ A `Music` instance needs to be disposed if it is no longer needed, to free up re
 ```java
 music.dispose();
 ```
+{% endraw %}

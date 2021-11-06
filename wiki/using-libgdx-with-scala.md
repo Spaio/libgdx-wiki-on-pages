@@ -1,3 +1,4 @@
+{% raw %}
 
 Scala is a functional, object-oriented programming language for the JVM that works seamlessly with Java libraries, frameworks, and tools. It has a concise syntax and a REPL, which makes it feel like a scripting language, but it is being used in mission critical server software at companies like Twitter and LinkedIn.
 
@@ -118,3 +119,5 @@ See [here](https://github.com/ajhager/libgdx-sbt-project.g8/wiki/IDE-Plugins) fo
 
 ## Other resources
 [Develop Games in Scala with libgdx](http://raintomorrow.cc/post/70000607238/develop-games-in-scala-with-libgdx-getting-started)
+
+{% endraw %}

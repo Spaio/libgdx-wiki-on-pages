@@ -1,3 +1,4 @@
+{% raw %}
 # Third Party Extension Support in the libGDX setup
 ---
   
@@ -102,3 +103,5 @@ You __must__ provide all the data shown above, appended to the extensions.xml fi
 
 
 
+
+{% endraw %}

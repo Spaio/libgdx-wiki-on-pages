@@ -1,3 +1,4 @@
+{% raw %}
 If you need texture compression, offline mipmap generation, or cubemaps, the default texture formats like PNG won't be sufficient. Luckily libGDX provides 2 options for this ETC1 files and KTX/ZKTX textures.
 
 Note that for the **GWT** backend ETC1 and KTX/ZKTX is currently **not supported**.
@@ -67,3 +68,5 @@ Once you have your KTX or ZKTX compressed image in a file, you can easily load i
 ```java
 Texture texture = new Texture(Gdx.files.internal("image.zktx"));
 ```
+
+{% endraw %}

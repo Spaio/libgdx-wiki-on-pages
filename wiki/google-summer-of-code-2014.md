@@ -1,3 +1,4 @@
+{% raw %}
 
 FIXME out of date. This page is mostly an [RFC](https://en.wikipedia.org/wiki/Request_for_Comments)
 
@@ -276,3 +277,5 @@ This project could be done in collaboration with the Scripting Support project a
 
 
 (FIXME, maybe add the mentor list here... idk)
+
+{% endraw %}

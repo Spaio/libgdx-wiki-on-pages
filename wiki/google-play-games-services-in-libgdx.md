@@ -1,3 +1,4 @@
+{% raw %}
 [Google Play Games Services](https://developers.google.com/games/services/) offers social leaderboards, achievements, and much more (realtime multiplayer, cloud saves, anti-piracy...)
 
 Cross-platform features are deprecated, for new projects it is recommended to use on Android only.
@@ -100,3 +101,5 @@ In the meantime, you can check out the following sample to get you started:
 [Splinter Sweets](https://github.com/reime005/splintersweets) is a Kotlin based example that makes use of Leaderboards. It is available on Android and iOS (Gamecenter and Google Play Services integration).
 
 
+
+{% endraw %}

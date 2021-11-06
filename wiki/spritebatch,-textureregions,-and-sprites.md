@@ -1,3 +1,4 @@
+{% raw %}
 This page gives a brief overview of how images are drawn using OpenGL and how libGDX simplifies and optimizes the task through the `SpriteBatch` class.
 
 ## Drawing images ##
@@ -173,3 +174,5 @@ _Note: Be sure to clear the screen each frame. If this is not done, a texture wi
 `SpriteBatch` has a public int field named `renderCalls`. After `end` is called, this field indicates how many times a batch of geometry was sent to the GPU between the last calls to `begin` and `end`. This occurs when a different texture must be bound, or when the `SpriteBatch` has cached enough sprites to be full. If the `SpriteBatch` is sized appropriately and `renderCalls` is large (more than maybe 15-20), it indicates that many texture binds are occurring.
 
 `SpriteBatch` has an additional constructor that takes a size and a number of buffers. This is an advanced feature that causes vertex buffer objects (VBOs) to be used rather than the usual vertex arrays (VAs). A list of buffers is kept, and each render call uses the next buffer in the list (wrapping around). When `maxSpritesInBatch` is low and `renderCalls` is large, this may provide a small performance boost.
+
+{% endraw %}

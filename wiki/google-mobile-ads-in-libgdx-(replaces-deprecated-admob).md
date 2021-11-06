@@ -1,3 +1,4 @@
+{% raw %}
 The number one ad service being used by Android and libGDX developers at the moment is Google AdMob.
 
 If you've not updated your app recently you should consider doing so soon. Google says:
@@ -60,3 +61,4 @@ Save changes, then refresh and clean in eclipse for good luck...
 That's all there is to it!
 
 One final note if cloning from [https://github.com/TheInvader360/tutorial-libgdx-google-ads](https://github.com/TheInvader360/tutorial-libgdx-google-ads), pay attention to the problems view in eclipse! You will need to create an empty 'gen' directory in both the google-play-services_lib and tutorial-libgdx-google-ads-android projects, and ensure you have the required android sdks installed. As is often the case with eclipse, a liberal amount of refreshing and cleaning will do no harm...
+{% endraw %}

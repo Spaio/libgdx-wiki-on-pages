@@ -1,3 +1,4 @@
+{% raw %}
 This is a series of articles, originally written by Xoppa. You can find the original versions here:
 
   * [Basic 3D using libGDX](https://xoppa.github.io/blog/basic-3d-using-libgdx/)
@@ -14,3 +15,4 @@ This is a series of articles, originally written by Xoppa. You can find the orig
   * [3D physics simulation](https://xoppa.github.io/blog/using-the-libgdx-3d-physics-bullet-wrapper-part2/)
 
 These articles give you a good quick overview on how to achieve basic tasks with the new 3D API. For more information, take a look at the Javadocs of the classes in the com.badlogic.gdx.graphics.g3d package or check out the [tests and demos](running-demos-&-tests).
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 When dealing with different screens it is often necessary to decide for a certain strategy how those different screen sizes and aspect ratios should be handled. Camera and Stage support different viewport strategies, for example when doing picking via `Camera.project(vec, viewportX, viewportY, viewportWidth, viewportHeight)`.
 
 libGDX provides a more convenient way of dealing with this problem: [`Viewport`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/utils/viewport/Viewport.html) ([source](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/utils/viewport/Viewport.java)).
@@ -91,3 +92,4 @@ A maximum set of dimensions can be supplied to `ExtendViewport`, in which case, 
 Different strategies may be implemented by doing `CustomViewport extends Viewport` and overriding `update(width, height, centerCamera)`. Another approach is use the generic `ScalingViewport` and supplying another Scaling which is not yet covered by any other Viewport. One example could be to supply `Scaling.none` to it, which will result in a completely "StaticViewport", which always keeps the same size. It might look like this:
 
 [images/8F697TX.png](images/8f697tx.png)
+{% endraw %}

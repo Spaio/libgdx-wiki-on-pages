@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction #
 
 The [math](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/math) package contains various useful classes for dealing with problems in geometry, linear algebra, collision detection, interpolation, and common unit conversions.
@@ -18,3 +19,4 @@ One way to triangulate a simple polygon is based on the fact that any simple pol
 ## Windowed Mean ##
 
 The [Windowed Mean](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/WindowedMean.html) [(code)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/math/WindowedMean.java) class is useful for tracking the mean of a running stream of floating point values within a certain window. This can be useful for basic statistical analysis such as measuring average network speed, gauging user reaction times for dynamic difficulty adjustment, or energy-based beat detection in music visualizations.
+{% endraw %}

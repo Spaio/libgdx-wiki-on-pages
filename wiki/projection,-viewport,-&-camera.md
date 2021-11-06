@@ -1,3 +1,4 @@
+{% raw %}
 # No Op: Not Translating
 
 
@@ -459,3 +460,5 @@ Since Android devices have so many different screen sizes, locking the screen is
 # Conclusion
 
 You should now have enough knowledge about meshes, sprites, and cameras to start constructing any basic scene you want. For more examples, look at the libGDX [demos](https://github.com/libgdx/libgdx/tree/master/demos) and [tests](https://github.com/libgdx/libgdx/tree/master/tests). You can grab the source files for this project in our [download page](http://libgdx.badlogicgames.com/download.html).
+
+{% endraw %}

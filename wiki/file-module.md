@@ -1,3 +1,4 @@
+{% raw %}
 The File module provides methods for easy file manipulation. It provides all the functionality needed for most common tasks.
 
 The following tasks are supported
@@ -141,3 +142,5 @@ The Android version is analogous.
 ### Writing to a File ###
 
 _TBD_
+
+{% endraw %}

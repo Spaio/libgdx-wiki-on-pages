@@ -1,3 +1,4 @@
+{% raw %}
 ## Overview
 
 Table is a WidgetGroup that sets the position and size of its children using a logical table, similar to HTML tables. Tables are intended to be used extensively in scene2d.ui to layout widgets, as they are easy to use and much more powerful than manually sizing and positioning widgets. Table-based layouts don't rely on absolute positioning and therefore automatically adjust to different widget sizes and screen resolutions.
@@ -330,3 +331,4 @@ If inserting or removing cells is needed, [VerticalGroup](Scene2d.ui#verticalgro
 
 * By default, positions and sizes are rounded to integers. This may cause problems when using small values.
   Use [Table#setRound(false)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/scenes/scene2d/ui/Table.java#L669) to change it.  
+{% endraw %}

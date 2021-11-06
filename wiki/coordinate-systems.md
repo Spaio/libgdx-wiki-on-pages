@@ -1,3 +1,4 @@
+{% raw %}
 When working with libGDX (or any other OpenGL based system), you will have to deal with various [coordinate systems](https://en.wikipedia.org/wiki/Coordinate_system). This is because OpenGL abstracts away device dependent units, making it more convenient to target multiple devices and to focus on game logic. Sometimes you may need to convert between coordinate systems for which libGDX offers various methods.
 
 **It is crucial to understand in which coordinate system you are working. Otherwise it can be easy to get confused and to make assumptions which aren't correct.**
@@ -118,3 +119,5 @@ Most commonly [scene2d](https://github.com/libgdx/libgdx/wiki/Scene2d) is used f
 This is what suits best for your game and is used to implement game logic. It is good practice to keep the values around one for the best floating point precision. For example, your main character is 1.8 meter in height, the tree is 10 meter in height, etc. If you are making a galactic game where units and distance are very high, you might want to use e.g. kilometers instead.
 
 The camera is used to look into your game world, just like it would when you use a video camera in the real world. The camera can be moved, rotated and scaled to display another portion of the world on the screen.
+
+{% endraw %}

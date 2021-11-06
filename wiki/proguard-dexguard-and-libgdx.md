@@ -1,3 +1,4 @@
+{% raw %}
 [ProGuard](http://www.saikoa.com/proguard) and the newer [R8](https://developer.android.com/studio/build/shrink-code) are optimizers and obfuscators for Java and Android applications. You can use these tools with your libGDX application to make it harder for 3rd parties to decompile your app, reduce your apps size and even increase the runtime speed by ahead-of-time optimizations like inlining.
 
 The following configuration file will make your libGDX app work with ProGuard/R8:
@@ -60,3 +61,5 @@ buildTypes {
         }
     }
 ```
+
+{% endraw %}

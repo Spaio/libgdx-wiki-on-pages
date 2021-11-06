@@ -1,3 +1,4 @@
+{% raw %}
 The `BitmapFontCache` class supports in-string colored text through a simple markup language.
 
 Markup is disabled by default. Use the public member [font.getData().markupEnabled](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g2d/BitmapFont.BitmapFontData.html#markupEnabled) to turn it on/off.
@@ -15,3 +16,4 @@ Unknown colors, illegal hex codes and unclosed tags are silently ignored and tre
 For a sample code see the test class [BitmapFontTest](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/BitmapFontTest.java).
 
 **Note:** When using with Scene2D you have to remove the **fontColor** property from **LabelStyle** definition in the **skin.json** file to have markup coloring work with a Label. 
+{% endraw %}

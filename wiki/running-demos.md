@@ -1,3 +1,4 @@
+{% raw %}
 libGDX comes with a few demos that you can play around with to get a feeling for how to do things. Note that many of these demos have been created during game jams and may not necessarily reflect best practices.
 
 [Setup your development environment](setting-up-your-development-environment-(eclipse,-intellij-idea,-netbeans)), then simple clone the repositories on Github (or click on the "Download ZIP" button of a project's site) and import the project into your favorite IDE as a Gradle project.
@@ -10,3 +11,4 @@ libGDX comes with a few demos that you can play around with to get a feeling for
 * [The Plane that couldn't fly good - a flappy bird's clone](https://github.com/badlogic/theplanethatcouldntflygood)
 
 #### [You can try all these demos right in your WebGL-enabled browser! (Except IE, including IE 11)](http://libgdx.badlogicgames.com/demos/)
+{% endraw %}

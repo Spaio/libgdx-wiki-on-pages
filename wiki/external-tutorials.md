@@ -1,3 +1,4 @@
+{% raw %}
 This page gives a list of some **external tutorials**, if our wiki here isn't enough for you. If you're looking for some **representative games** made with libGDX, have a look at our collection [here](https://libgdx.com/showcase/). If you're interested in some **tools and frameworks to use with libGDX**, [this curated list](https://github.com/rafaskb/awesome-libgdx) may be of help. We also have a list of useful resources on our discord server.
 
 *Preliminary note:* Given the nature of this page's content it is likely that some of the links displayed here might become offline or even change. If you spot some broken link or wrong information please feel free to edit this page so we can keep our wiki as up-to-date as possible. Thank you.
@@ -64,3 +65,5 @@ These are some open-source projects found on the web that use libGDX and can be 
 * [martianrun](https://github.com/wmora/martianrun) (2D running game; uses AdMob and Google Play Game Services)
 * [GdxCombat](https://github.com/gamedevpl/GdxCombat) (2D mortal kombat like game)
 * [rpgboss-editor](https://github.com/rpgboss/rpgboss)
+
+{% endraw %}

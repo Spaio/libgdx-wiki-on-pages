@@ -1,3 +1,4 @@
+{% raw %}
 # Contents
 
 * [**Introduction**](#introduction)
@@ -116,3 +117,4 @@ As previously mentioned, the Gradle project that is created by **gdx-setup.jar**
 
 #### It revolutionizes everything
 Look down. Now look back up. Look down again. You're sitting on a chair. Look back up. You aren't using Gradle, your life is OK but it could be better. You read this article and you decide you want to use Gradle. You use the **gdx-setup.jar** to generate your project and you get tinkering with it.  You use the power of Gradle to create 500 flappy clones from the same source code. Look down again. Your chair is now made of gold and there are an infinite number of monkeys with keyboards coding for you. Your life is now better and you can concentrate on the things that matter.
+{% endraw %}

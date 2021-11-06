@@ -1,3 +1,4 @@
+{% raw %}
 libGDX includes some classes for cross-platform network operations. These classes are more commonly known as [Gdx.net](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/Net.html) [(source)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/Net.java)
 
 # Features
@@ -110,3 +111,4 @@ There are various notes needed when working with networking on different platfor
 Great articles about mobile data battery efficiency [here](https://developer.android.com/training/efficient-downloads/index.html)
 
 Source code for Gdx.net classes [here](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/net)
+{% endraw %}

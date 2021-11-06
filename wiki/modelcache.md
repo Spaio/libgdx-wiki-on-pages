@@ -1,3 +1,4 @@
+{% raw %}
 When rendering many [Models]] using [ModelBatch](modelbatch) you might notice that it will have an impact on performance. This is often because every [[part](models#nodepart) of the model will cause a [render call](https://github.com/libgdx/libgdx/wiki/modelbatch#what-are-render-calls). Every render call requires the GPU and the CPU to synchronize, which is a relatively costly operation. Therefor you typically want to keep the number of render calls to a minimum.
 
 There are multiple ways to reduce the number of render calls. For example by *frustum culling* (not rendering what wont be visible anyway), by *optimizing your models* to contain less parts or by *merging models* to reduce the number of models. [ModelCache](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelCache.html) ([code](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/ModelCache.java)) allows to do the latter two of those at runtime.
@@ -69,3 +70,4 @@ public void dispose() {
     batch.dispose();
 }
 ```
+{% endraw %}

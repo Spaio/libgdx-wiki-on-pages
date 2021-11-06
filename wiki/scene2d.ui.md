@@ -1,3 +1,4 @@
+{% raw %}
 ## Overview ##
 
 scene2d is libGDX's 2D scene graph. At its core, it provides basic 2D scene graph functionality: actors, groups, drawing, events, and actions. This is a lot of utility that applications can leverage, but it is reasonably low level. For games this is fine because most actors are application specific. For building UIs, the scene2d.ui package provides common UI widgets and other classes built on top of scene2d.
@@ -330,3 +331,5 @@ For now, please see these test programs:
  * [ImageTest](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/ImageTest.java#L30)
  * [LabelTest](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/LabelTest.java#L34)
  * [ScrollPaneTest](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/ScrollPaneTest.java#L36)
+
+{% endraw %}

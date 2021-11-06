@@ -1,3 +1,4 @@
+{% raw %}
 > Make sure to use the latest nightly (not stable) or to work directly with the latest libGDX code (also make sure to manually update natives in the latter case). The issue you're having might already be solved.
 
 If you encounter a problem when using the Bullet Wrapper, it can be sometimes difficult to find the cause of the problem. For example, you might see an error like:
@@ -86,3 +87,4 @@ Search for `int btDiscreteDynamicsWorld::stepSimulation( btScalar timeStep,int m
 [images/uzMOe53.png](images/uzmoe53.png)
 
 In case you stopped in a breakpoint on the Java side of the application, it is now time to remove that and resume the process. As soon as your Java code will call `btDiscreteDynamicsWorld.stepSimulation` you should now be able to switch to Visual Studio and see that the debugger kicked in and you are able to step through the code.
+{% endraw %}

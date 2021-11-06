@@ -1,3 +1,4 @@
+{% raw %}
 # Building for GWT with a package created from source
 When working with libGDX source and creating a custom package (see [working with source](https://libgdx.com/dev/from-source/)), sometimes one wants to add a new file to LibGDX.
 For each new file added to LibGDX, it is necessary to add a new entry for the new file to the gdx/src/com/badlogic/gdx.gwt.xml in order for the package to be used successfully when compiling for GWT. 
@@ -9,3 +10,4 @@ If the new file isn't added to `gdx/src/com/badlogic/gdx.gwt.xml`, an error simi
     [ERROR] Aborting compile due to errors in some input files`
 
 may be seen.
+{% endraw %}

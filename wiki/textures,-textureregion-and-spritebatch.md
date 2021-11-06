@@ -1,3 +1,4 @@
+{% raw %}
 This article introduces the basics of 2D graphics, namely the use of **Texture**, **TextureRegion** and **SpriteBatch**. 
 
 ## Texture, TextureRegion and SpriteBatch
@@ -220,3 +221,4 @@ It starts the cutting from the top left corner and cuts out regions of 64x64 pix
 For a complete description of Texture, TextureRegion and SpriteBatch, check out their [javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/).
 
 Sprites used from [here](http://blogoscoped.com/archive/2006-08-08-n51.html).
+{% endraw %}

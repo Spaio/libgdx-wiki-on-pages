@@ -1,3 +1,4 @@
+{% raw %}
 ## The original Overlap2D
 <img src="https://raw.githubusercontent.com/UnderwaterApps/overlap2d/master/overlap2d/assets/style/bglogo.png" width="110">
 
@@ -14,3 +15,5 @@ The project is [hosted on github](https://github.com/UnderwaterApps/overlap2d), 
 VisRuntime is no longer maintained. It was is an open source 2D game level editor with a libGDX runtime.
 
 You can find more information and documentation on the [VisEditor website](http://vis.kotcrab.com/) and [wiki](https://github.com/kotcrab/VisEditor/wiki/LibGDX-Runtime-Introduction).
+
+{% endraw %}

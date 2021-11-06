@@ -1,3 +1,4 @@
+{% raw %}
 Whenever the assets of a game exceed a certain size, in order to release the game on Google Play, the assets have to be placed into a separate file, to keep the APK size under 100MB. For more information about this you can read [here](http://developer.android.com/google/play/expansion-files.html).
 
 ## How to use the feature
@@ -12,3 +13,4 @@ Afterwards your assets can be accessed using:
 just like you would normally.
 
 Keep in mind that on lots of small files this can be inefficient because [AndroidFiles](https://github.com/libgdx/libgdx/blob/master/backends/gdx-backend-android/src/com/badlogic/gdx/backends/android/AndroidFiles.java) first checks if a file exists in the assets and only afterwards it creates an [AndroidZipFileHandle](https://github.com/libgdx/libgdx/blob/master/backends/gdx-backend-android/src/com/badlogic/gdx/backends/android/AndroidZipFileHandle.java). If you want to optimize loading time use a FileHandleResolver like the [ZipFileHandleResolver](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests-android/src/com/badlogic/gdx/tests/android/ZipFileHandleResolver.java).
+{% endraw %}

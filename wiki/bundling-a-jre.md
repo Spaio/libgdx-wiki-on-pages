@@ -1,3 +1,4 @@
+{% raw %}
 Java apps need a Java Runtime Environment to run. Typically this is installed by the user and hopefully already available when they go to run your app. Unfortunately users may not have Java installed and there are differences between JREs that can cause problems with your app. These can be difficult for users to explain and worse, difficult for them to fix themselves. Also, you may require, as a minimum, a certain JRE version.
 
 The solution is to bundle a JRE with your app. This way you know exactly what users will be running and users will have fewer problems and they will not have to install a JVM. 
@@ -76,3 +77,5 @@ lib\jsse.jar\sun\security\ssl\
 To make this list I went through the files and JARs sorting by largest size first. I then deleted the largest files that looked like that were not needed and ran my app to make sure everything still works.
 
 This list reduces the JRE size to about 36MB. Note that for faster start up the JRE JARs are not compressed. After zipping the entire JRE, the size is reduced to about 13.5MB. If Swing packages are also removed from rt.jar, the zipped size goes down to about 9.8MB.
+
+{% endraw %}

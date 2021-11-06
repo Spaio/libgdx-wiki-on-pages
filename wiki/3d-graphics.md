@@ -1,3 +1,4 @@
+{% raw %}
 ### The 3D Graphics API
  * [Quick Start](quick-start)
  * [Models](models)
@@ -10,3 +11,4 @@
  * [3D Particle Effects](3d-particle-effects)
  * [Virtual Reality (VR)](virtual-reality-(vr))
  * [ImGui Bindings And 3D Graphics](imgui-bindings-and-3d-graphics)
+{% endraw %}

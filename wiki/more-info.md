@@ -1,3 +1,4 @@
+{% raw %}
 If you have been sent to this page it is because you failed to provide enough information for us to take action on your issue. We handle hundreds of issues and cannot burn our time explaining to each person how to properly post an issue. Instead we send you here, which explains what you need to do.
 
 ## What do I do now? ##
@@ -15,3 +16,5 @@ If you think you posted enough information for us to work on your issue, you are
 ## Indignation, resentment, exasperation, and friends ##
 
 libGDX is a community-based open source project. If you are not able to contribute a fix for your issue then we are happy to help, but we do require you to provide enough information so that we can be productive when we spend our time on your issue. Please respect our time.
+
+{% endraw %}

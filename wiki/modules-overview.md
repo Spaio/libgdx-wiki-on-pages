@@ -1,3 +1,4 @@
+{% raw %}
 ## Introduction ##
 
 libGDX comprises several modules that provide services for each step of a typical game architecture. 
@@ -120,3 +121,4 @@ Gdx.net.sendHttpRequest(httpRequest, httpResponseListener);
 
 
 [Prev](the-life-cycle) | [Starter classes and configuration](https://github.com/libgdx/libgdx/wiki/Starter-classes-and-configuration)
+{% endraw %}

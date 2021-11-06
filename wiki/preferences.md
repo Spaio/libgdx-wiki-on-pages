@@ -1,3 +1,4 @@
+{% raw %}
 Preferences are a simple way to store small data for your application, e.g. user settings, small game state saves and so on. Preferences work like a hash map, using strings as keys, and various primitive types as values. *Preferences are also the only way to date to write persistent data when your application is run in the browser*.
 
 
@@ -47,3 +48,4 @@ This is useful to know if you want to change or delete them manually for testing
 On Android, the system's [SharedPreferences](http://developer.android.com/reference/android/content/SharedPreferences.html) class is used. This means preferences will survive app updates, but are deleted when the app is uninstalled.
 
 On iOS, an NSMutableDictionary will be written to the given file. [per [javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/Preferences.html)]
+{% endraw %}

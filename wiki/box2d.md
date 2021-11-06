@@ -1,3 +1,4 @@
+{% raw %}
 # Setting up Box2D with libGDX #
 
 Box2D is a 2D physics library. It is one of the most popular physics libraries for 2D games and has been ported to many languages and many different engines, including libGDX. The Box2D implementation in libGDX is a thin Java wrapper around the C++ engine. Therefore, their [documentation](https://box2d.org/documentation/) may come in handy.
@@ -551,3 +552,5 @@ Code Sample available on [LibGDX.info](https://libgdx.info/box2d-importing-compl
 
    * <a href="https://www.iforce2d.net/rube">RUBE</a> editor for creating box2d worlds.  Use <a href="https://github.com/tescott/RubeLoader">RubeLoader</a> for loading RUBE data into libgdx.
    * <a href="https://www.codeandweb.com/physicseditor">PhysicsEditor</a>
+
+{% endraw %}

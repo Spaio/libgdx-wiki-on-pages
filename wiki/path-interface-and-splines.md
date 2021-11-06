@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction
 
 The [Path interface](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/Path.html) [(code)](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/Path.html) have implementations that allows you to traverse smoothly through a set of defined points (in some cases, tangents too).
@@ -167,3 +168,4 @@ change to:
 ```
 
 You should change the speed variable too, since it doesn't take a "percent per second" value anymore, but a "meter(pixel?) per second") now. The spanCount is necessary since the derivativeAt method takes into account the current span only.
+{% endraw %}

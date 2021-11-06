@@ -1,3 +1,4 @@
+{% raw %}
 The libGDX 2D Particle Editor is a powerful tool for making particle effects. See the video and documentation below. The Java API works (the editor is built using it) but could use some clean up and definitely some documentation. There is a [runnable example](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/ParticleEmitterTest.java), though unfortunately it isn't the simplest for typical usage. Improvements to particles is planned, but will be some time until we can get to it.
 
 [images/particle-editor.png](images/particle-editor.png)
@@ -99,3 +100,5 @@ In the upper left of the particle editor, “Count” shows how many particles e
 Effect settings saved with the particle editor are written to a text file, which can be loaded into a ParticleEffect instance in your game. The ParticleEffect can load images from a directory, or a SpriteSheet. Of course, a SpriteSheet is recommended and can easily be made with the SpriteSheetPacker.
 
 Most effects can be simplified to use just a few images. My most complex effects that use 4 or more emitters typically only need 15 or so total particles alive at once. See ParticleEmitterTest in gdx-tests if you'd like to test how many particles your device can handle. However, the performance varies greatly with the particle image size.
+
+{% endraw %}

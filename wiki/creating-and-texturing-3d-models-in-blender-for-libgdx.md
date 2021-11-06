@@ -1,3 +1,4 @@
+{% raw %}
 # No Op: Not Translating
 
 
@@ -73,3 +74,4 @@ For ‘Coordinates’ select UV.
 Now you should be able to export to .obj file and load with your favorite framework .obj loader method. libGDX makes this as easy as can be. NOTE: Make sure your texture you use is in your ‘data’ directory like other libGDX image assets!
 
 Link to original blog post: http://www.mobteklabs.com/2011/06/how-to-create-3d-models-in-blender-for-libgdx-android-iphone-etc/
+{% endraw %}

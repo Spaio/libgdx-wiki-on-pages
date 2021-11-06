@@ -1,3 +1,4 @@
+{% raw %}
 # Summary #
 
  * [Introduction](#introduction)
@@ -371,3 +372,4 @@ One more time, let me walk you through this code snippet:
 Please, use Publisher Id 1100042525 with each of those adspaces.
 
 Don't forget to change the values to the production ones before the release!
+{% endraw %}

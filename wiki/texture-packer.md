@@ -1,3 +1,4 @@
+{% raw %}
  * [TexturePacker](#texturepacker)
    * [Running TexturePacker](#running-texturepacker)
    * [Directory structure](#directory-structure)
@@ -262,3 +263,4 @@ TextureAtlas reads the pack file and loads all the page images. TextureAtlas.Atl
 Note that `findRegion` is not very fast, so the value returned should be stored rather than calling this method each frame. Also note that createSprite and createNinePatch allocate a new instance.
 
 TextureAtlas holds on to all the page textures, disposing the TextureAtlas will dispose all the page textures.
+{% endraw %}

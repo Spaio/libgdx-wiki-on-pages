@@ -1,3 +1,4 @@
+{% raw %}
 # JSON serialization #
 
 The [JSON](reading-and-writing-json) class can automatically convert Java objects to and from JSON.
@@ -122,3 +123,4 @@ kryo.register(Color.class, new Serializer<Color>() {
 	}
 });
 ```
+{% endraw %}

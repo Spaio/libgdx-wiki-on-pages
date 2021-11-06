@@ -1,3 +1,4 @@
+{% raw %}
 # Information
 
 libGDX has its own Tween engine, more info here: https://github.com/libgdx/libgdx/wiki/Interpolation
@@ -148,3 +149,4 @@ allprojects {
   ```
   gradlew --refresh-dependencies
   ```
+{% endraw %}

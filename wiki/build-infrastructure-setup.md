@@ -1,3 +1,4 @@
+{% raw %}
 Our build infrastructure has the responsibility of building libGDX for all supported platforms (Windows, Linux, Mac OS X, Android, iOS, HTML). On top of the boring old Java code, we also need to compile the native code for each platform and architecture (32-, 64-bit if available).
 
 We solve this issue by using cross-compilation on a Linux host to compile native code for Windows, Linux and Android. We additionally use a Mac to compile the iOS and Mac OS X native binaries.
@@ -141,3 +142,4 @@ ccache /usr/bin/g++ "$@"
 ```
 
 Through this, we proxy all compiler calls for Mac OS X native compilation through ccache, speeding up our build. I have yet to figure out a way to make this work with our iOS native builds.
+{% endraw %}

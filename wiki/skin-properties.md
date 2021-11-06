@@ -1,3 +1,4 @@
+{% raw %}
 The following is a list of all properties of UI skin elements.
 
 **Bitmap Fonts** (com.badlogic.gdx.graphics.g2d.BitmapFont)
@@ -14,3 +15,4 @@ A UI button widget.
 * **up**: the image when the button is untouched.
 * **over**: the image when the mouse is hovering over the button.
 * **down**: the image when the mouse is clicked over the button.
+{% endraw %}

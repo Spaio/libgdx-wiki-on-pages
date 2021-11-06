@@ -1,3 +1,4 @@
+{% raw %}
 Contact callbacks allow you to be notified when a contact/collision on two objects occur ([more info and a performance related warning](https://github.com/AndresTraks/BulletSharp/wiki/Collision-Callbacks-and-Triggers#contact-callbacks)).
 
 By default there are three callbacks: `onContactAdded`, `onContactProcessed` and `onContactDestroyed`. The wrapper adds two additional callbacks: `onContactStarted` and `onContactEnded` ([more info](http://www.bulletphysics.org/Bullet/phpBB3/viewtopic.php?t=7739&p=32470)). The callbacks are global (independent of e.g. the collision world), there can be only one implementation per callback active at any given time.
@@ -83,3 +84,4 @@ public class MyContactListener extends ContactListener {
 ```
 
 Even when using contact filtering, the callbacks can be invoked quite often on collision. To avoid this you can set the filter to zero after processing. For example, in the case of the player and the coin, it's best to let the coin collide with the player and than set it's filter to zero on first contact, instead of letting the player collide with the coin.
+{% endraw %}

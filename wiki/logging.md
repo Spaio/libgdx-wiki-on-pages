@@ -1,3 +1,4 @@
+{% raw %}
 The `Application` interface provides simple logging facilities that give granular control.
 
 A message can be a normal info message, an error message with an optional exception or a debug message:
@@ -24,3 +25,4 @@ where `logLevel` can be one of the following values:
   * Application.LOG_INFO: logs error and normal messages.
 
 [Prev](querying) | [Next](threading)
+{% endraw %}

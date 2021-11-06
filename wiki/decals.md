@@ -1,3 +1,4 @@
+{% raw %}
 A `Decal` is basically a `Sprite` that can be manipulated and rendered in 3D space. They allow you to draw a 2D texture within your 3D world very efficiently using a `DecalBatch`, with an API similar to that of the `Sprite` and `SpriteBatch`.
 
 ## [Decal](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/decals/Decal.html)
@@ -76,3 +77,4 @@ We can set the pool size in the constructor:
 You can see a working example that shows off the correct usage of Decals here:
 
 https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/SimpleDecalTest.java
+{% endraw %}

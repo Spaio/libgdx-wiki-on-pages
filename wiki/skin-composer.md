@@ -1,3 +1,4 @@
+{% raw %}
 [Skin Composer](https://github.com/raeleus/skin-composer) is a handy tool to make the process of creating Scene2D skins easier. Its extensive [wiki](https://github.com/raeleus/skin-composer/wiki) provides information on how to use it.
 
 ### Video series:
@@ -19,3 +20,4 @@
 
 ## Scene Composer
 Later versions of Skin Composer also include a **[Scene Composer](https://github.com/raeleus/skin-composer/wiki/Scene-Composer)**, a WYSIWYG editor that can export JSON or Java files to be loaded directly in-game. It allows easily prototype Scene2D layouts and seeing your Skin in action.
+{% endraw %}

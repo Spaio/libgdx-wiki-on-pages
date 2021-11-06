@@ -1,3 +1,4 @@
+{% raw %}
 So you are planning to join #libGDXJAM and you are considering (or already decided upon) choosing Overlap2D editor as your primary weapon of choice. If so, read on!
 
 In this article I (as the creator of Overlap2D) will try to provide as much information as possible on how to be friends with O2D and use it wisely!
@@ -64,3 +65,4 @@ To make some dialogs use 9patch images for background (actually same for buttons
 * You can render your UI using entity enine as well, by just putting your UI on the scene. But if you need your camera to zoom out and move, then maybe it's a better idea to create a separate stage for your UI, and use CompositeActor's for it.
 * When programming systems, to monitor user inputs, use Gdx.input, it has all you may ever need. No need for ye-olde event listeners.
 * So you have this composite inside a composite inside a composite, and then there is different physics shapes and bodies inside, and they all behave wrong - yeah... don't do that. Keep it simple, and it'll work :-P
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 # ModelBuilder
 [ModelBuilder](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/utils/ModelBuilder.html) [(code)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/utils/ModelBuilder.java) is a utility class to create one or more [models](https://github.com/libgdx/libgdx/wiki/Models) on code. It allows you to include one or more [nodes](https://github.com/libgdx/libgdx/wiki/Models#nodes), each node consisting of one or more [parts](https://github.com/libgdx/libgdx/wiki/Models#nodepart). It does, however, not support building a node hierarchy (child nodes). Be aware that building a model on code can be a costly operation and might trigger the garbage collector.
 ## Building one or more models
@@ -149,3 +150,4 @@ meshPartBuilder.setUVRange(0.5f, 0f, 0f, 0.5f);
 meshPartBuilder.rect(0,0,0, 3,0,0, 3,3,0, 0,3,0, 0,0,1); // the last three arguments specify the normal
 ```
 Use the `setVertexTransform(...)` method to supply a transformation matrix that should be applied to all vertices following after that call.
+{% endraw %}

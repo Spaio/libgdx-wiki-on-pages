@@ -1,3 +1,4 @@
+{% raw %}
 ![logo](https://libgdx.com/assets/images/logo.png)
 
 **Welcome to our Wiki, a place for comprehensive documentation on the libGDX API and features.** This wiki is community driven, and can be edited by anyone. If you find information out of date or want to add some more in-depth explanations, you are very welcome to do the necessary changes after having had a look at our [Wiki Style Guide](wiki-style-guide).  
@@ -156,3 +157,5 @@
 * [Adding Extensions and 3rd Party Libraries](dependency-management-with-gradle)
 * [Improving Your Gradle Workflow](improving-workflow-with-gradle)
 * [Creating Asset Project in Eclipse](creating-a-separate-assets-project-in-eclipse)
+
+{% endraw %}

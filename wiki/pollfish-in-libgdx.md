@@ -1,3 +1,4 @@
+{% raw %}
 # **Introduction**
 
 This is a simple tutorial that will help you integrate Pollfish surveys in your libGDX Android app.
@@ -243,3 +244,5 @@ PollFish.isPollfishPresent();
 ```
 
 
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 ### libGDX scene2d actions ###
 
 **credits**
@@ -97,3 +98,4 @@ To actually execute all actions defined for actors on stage, you have to call st
 stage.act(Gdx.graphics.getDeltaTime());
 stage.draw();
 ```
+{% endraw %}

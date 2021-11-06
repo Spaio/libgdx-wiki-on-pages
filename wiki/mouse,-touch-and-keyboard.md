@@ -1,3 +1,4 @@
+{% raw %}
 The main input devices libGDX supports are the mouse on the desktop/browser, touch screens on Android and keyboards. Let's review how libGDX abstracts those.
 
 ## Keyboard ##
@@ -120,3 +121,4 @@ public class SimplerTouchTest extends ApplicationAdapter implements InputProcess
 ```
 
 [Prev](configuration-and-querying) | [Next](polling)
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 libGDX makes use of bitmap files (pngs) to render fonts.  Each glyph in the font has a corresponding TextureRegion.
 
 [BitmapFont class](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g2d/BitmapFont.html) [(code)](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g2d/BitmapFont.java)
@@ -74,3 +75,4 @@ Fonts that need to be displayed with the same width for every glyph present a sp
             }
         }
 ```
+{% endraw %}

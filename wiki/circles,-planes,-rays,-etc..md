@@ -1,3 +1,4 @@
+{% raw %}
 # Introduction #
 
 libGDX has several geometric classes for dealing with shapes, areas, and volumes. These include:
@@ -69,3 +70,4 @@ A simple class which describes a line segment in three-dimensional space defined
 # [Spheres](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/collision/Sphere.html) [(code)](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/math/collision/Sphere.java) #
 
 A simple class which describes a three-dimensional sphere defined by a center point and a radius. Can be tested for intersection with [Frustum](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/Frustum.html) [(code)](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/math/Frustum.java) as well as [rays](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/collision/Ray.html) [(code)](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/math/collision/Ray.java) by using the [Intersector](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/math/Intersector.html) [(code)](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/math/Intersector.java) class.
+{% endraw %}

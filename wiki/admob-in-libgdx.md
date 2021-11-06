@@ -1,3 +1,4 @@
+{% raw %}
  * [Introduction](#introduction)
  * [Background](#background)
  * [Setup](#setup)
@@ -796,3 +797,4 @@ public class HelloWorldIOS extends Delegate implements IActivityRequestHandler {
     }
 }
 ```
+{% endraw %}

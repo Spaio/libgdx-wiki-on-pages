@@ -1,3 +1,4 @@
+{% raw %}
 Welcome to a place of magic and wonder, the World Wide Web! Even though some folks say this Internet thing is "just a fad," and we should keep using usenet and gopher, there's at least one thing the WWW has that those technologies don't:
 
 ## libGDX Games
@@ -177,3 +178,5 @@ The implementation the official HTML5 backend uses has some other restrictions, 
 [Building libGDX from source and adding new files to gdx.gwt.xml](https://github.com/libgdx/libgdx/wiki/Local-LibGDX-package-use-with-GWT)
 
 [HTML5 - GWT Explained on YouTube](https://youtu.be/I_85usDvJvQ)
+
+{% endraw %}

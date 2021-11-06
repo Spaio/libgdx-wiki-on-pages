@@ -1,3 +1,4 @@
+{% raw %}
 This document is just a draft with some instructions to build libgdx's native libraries.
 
 The following steps are based on Fedora 27.
@@ -29,3 +30,4 @@ mvn install
 cd gdx
 mvn clean compile exec:java -Dexec.mainClass="com.badlogic.gdx.utils.GdxBuild"
 ```
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 # Configuration & querying
 libGDX has an elaborate API that lets you query monitors and display modes, and toggle vertical synchronization (vsync). This can be done either when configuring your application, or at runtime. **Note: Display mode changes are not supported by Android, iOS or HTML5.**
 
@@ -264,3 +265,4 @@ window.iconifyWindow(); // iconify the window
 window.deiconifyWindow(); // deiconify window
 window.closeWindow(); // close the window, also disposes the ApplicationListener
 ```
+{% endraw %}

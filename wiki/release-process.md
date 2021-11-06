@@ -1,3 +1,4 @@
+{% raw %}
 2. Setup pgp keys and settings.xml for Maven release, ask Mario
 1. Disable the libGDX project on the build server
 3. pull in the latest changes into your local libGDX repository
@@ -28,3 +29,4 @@ Great, now you have a tag in Git and the versions in your pom.xml files are all 
 2. `git tag -d x.y.z`, `git push origin :x.y.z` to kill the motherfucking tag in the master repository
 3. Drop the staging repository on SonaType if necessary
 4. Start from the beginning, good luck
+{% endraw %}

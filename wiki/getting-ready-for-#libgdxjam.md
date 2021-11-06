@@ -1,3 +1,4 @@
+{% raw %}
 The libGDX community is organizing [#libGDXJAM](https://twitter.com/hashtag/libGDXJam?src=hash), a game programming competition that will take place sometime in December, the final date is yet to be announced.
 
 This article will take you through the rules and help you get ready to jam!
@@ -280,3 +281,5 @@ To-do:
   2. Create a build for submission
   3. Get the team together and decide what to polish in the remaining hours
   4. If polish works out, create a new build for submission
+
+{% endraw %}

@@ -1,3 +1,4 @@
+{% raw %}
 In practice, when rendering, you are specifying what (the shape) to render and how (the material) to render. The shape is specified using the Mesh (or more commonly the MeshPart), which defines the vertices attributes for the shader. The material is most commonly used to specify the uniform values for the shader.
 
 Uniforms can be grouped into model specific (e.g. the texture applied or whether or not to use blending) and environmental uniforms (e.g. the lights being applied or an environment cubemap). Likewise the 3D api allows you to specify a material and environment.
@@ -212,3 +213,4 @@ The `TextureAttribute` requires an attribute type, which by default can be one o
 * `TextureAttribute.Specular`
 * `TextureAttribute.Bump`
 * `TextureAttribute.Normal`
+{% endraw %}

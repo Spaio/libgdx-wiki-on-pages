@@ -20,5 +20,11 @@ jobs:
     - name: Launch translator
       run: |
         java test.java
-    - name: Add changes to git
-      run: git add -A
+    - name: Remove wiki src folder
+      run: rm -rf wiki_src        
+    - name: Commit report
+      run: |
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git commit -am "Automated report"
+        git push

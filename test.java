@@ -84,7 +84,10 @@ public class Main {
 						//if (filename.equals("Home.md")) {
 						//	filename = "index.md";
 						//}
-
+						
+						Files.createDirectories(Paths.get("_includes/"));
+						Files.createDirectories(Paths.get("wiki/"));
+						
 						if (filename.startsWith("_")) {
 							// For hidden files like sidebar and footer
 							filename = filename.substring(1);

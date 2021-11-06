@@ -1,7 +1,6 @@
 name: Java CI
 on: workflow_dispatch
-  
-  
+
 jobs:
   build:
 
@@ -14,3 +13,12 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
+    - name: Clone Libgdx wiki
+      run: |
+        git clone https://github.com/libgdx/libgdx.wiki.git wiki_src
+        rm -rf wiki_src/.git
+    - name: Launch translator
+      run: |
+        java test.java
+    - name: Add changes to git
+      run: git add -A

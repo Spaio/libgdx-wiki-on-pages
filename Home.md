@@ -1,4 +1,9 @@
+---
+layout: default
+title: kek
+---
 
+{% include Sidebar.md %}
 
 ![logo](https://libgdx.com/assets/images/logo.png)
 

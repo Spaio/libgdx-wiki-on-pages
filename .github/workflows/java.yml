@@ -21,7 +21,7 @@ jobs:
         rm -rf wiki_src/.git
     - name: Launch translator
       run: |
-        java test.java
+        java WikiToPagesTranslator.java
     - name: Remove wiki src folder
       run: rm -rf wiki_src        
     - name: Commit report

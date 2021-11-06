@@ -1,12 +1,12 @@
 ### The 3D Graphics API
- * [[[Quick Start](Quick-Start)]]
- * [[[Models](Models)]]
- * [[[Material and Environment](Material-and-Environment)]]
- * [[[ModelBatch](ModelBatch)]]
- * [[[ModelCache](ModelCache)]]
- * [[[ModelBuilder, MeshBuilder and MeshPartBuilder](ModelBuilder,-MeshBuilder-and-MeshPartBuilder)]]
- * [[[3D Animations and Skinning](3D-Animations-and-Skinning)]]
- * [[[Importing Blender Models in libGDX](Importing-Blender-Models-in-libGDX)]]
- * [[[3D Particle Effects](3D-Particle-Effects)]]
- * [[[Virtual Reality (VR)](Virtual-Reality-(VR))]]
- * [[[ImGui Bindings And 3D Graphics](ImGui-Bindings-And-3D-Graphics)]]
+ * [Quick Start](Quick-Start)
+ * [Models](Models)
+ * [Material and Environment](Material-and-Environment)
+ * [ModelBatch](ModelBatch)
+ * [ModelCache](ModelCache)
+ * [ModelBuilder, MeshBuilder and MeshPartBuilder](ModelBuilder,-MeshBuilder-and-MeshPartBuilder)
+ * [3D Animations and Skinning](3D-Animations-and-Skinning)
+ * [Importing Blender Models in libGDX](Importing-Blender-Models-in-libGDX)
+ * [3D Particle Effects](3D-Particle-Effects)
+ * [Virtual Reality (VR)](Virtual-Reality-(VR))
+ * [ImGui Bindings And 3D Graphics](ImGui-Bindings-And-3D-Graphics)

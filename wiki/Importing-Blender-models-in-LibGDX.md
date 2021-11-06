@@ -11,7 +11,7 @@ Another size consideration may be (depending on type and amount of animations) t
 
 ### Blender Animation
 Make sure to use the Action Editor for you animation of your models. The name you provide for the animation dropsheet in blender is the animation ID you can use in your code. In the below snapshot, CubeAction would be the name. Don't forget to hit that little F to ensure the action is saved!
-[[[images/800px-Doc26-actionEditor.png](images/800px-Doc26-actionEditor.png)]]
+[images/800px-Doc26-actionEditor.png](images/800px-Doc26-actionEditor.png)
 
 ### Exporting to FBX and converting to G3DB
 **Note:** _see this project [here](https://github.com/Dancovich/libgdx_blender_g3d_exporter) which converts directly from .blend files. *For Blender versions 2.8 and 2.9 this plugin appears to no longer work._

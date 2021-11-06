@@ -134,7 +134,7 @@ public class FilesExampleDesktop {
 
 Sample result:
 
-[[[images/file-module.png](images/file-module.png)]]
+[images/file-module.png](images/file-module.png)
 
 The Android version is analogous.
 

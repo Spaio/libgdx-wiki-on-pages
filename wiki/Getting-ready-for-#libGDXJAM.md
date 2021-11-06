@@ -76,15 +76,15 @@ Make sure you have decided on:
 
 [BFXR](http://www.bfxr.net/): web based sound effect generator.
 
-[[[images/bfxr.png](images/bfxr.png)]]
+[images/bfxr.png](images/bfxr.png)
 
 [Audiotool](http://www.audiotool.com/): web based music synthesizer.
 
-[[[images/audiotool.png](images/audiotool.png)]]
+[images/audiotool.png](images/audiotool.png)
 
 [Audacity](http://audacity.sourceforge.net/): open source audio editor.
 
-[[[images/audacity.png](images/audacity.png)]]
+[images/audacity.png](images/audacity.png)
 
 Free sound effects and music:
 
@@ -98,23 +98,23 @@ Free sound effects and music:
 
 [Gimp](http://www.gimp.org/): open source image editor.
 
-[[[images/gimp.png](images/gimp.png)]]
+[images/gimp.png](images/gimp.png)
 
 [Paint.NET](http://www.getpaint.net/index.html): open source image editor.
 
-[[[images/paint.net.jpg](images/paint.net.jpg)]]
+[images/paint.net.jpg](images/paint.net.jpg)
 
 [Inkscape](https://inkscape.org/en//): open source vector editor.
 
-[[[images/inkscape.png](images/inkscape.png)]]
+[images/inkscape.png](images/inkscape.png)
 
 [Spine](http://esotericsoftware.com/): skeletal 2D animation tool.
 
-[[[images/spine.png](images/spine.png)]]
+[images/spine.png](images/spine.png)
 
 [Blender](http://www.blender3d.org/): open source 3D editor.
 
-[[[images/blender.jpg](images/blender.jpg)]]
+[images/blender.jpg](images/blender.jpg)
 
 Free game art:
 
@@ -127,11 +127,11 @@ Free game art:
 
 [Tiled Map Editor](http://www.mapeditor.org/): open source tile based editor.
 
-[[[images/tiled.png](images/tiled.png)]]
+[images/tiled.png](images/tiled.png)
 
-[Overlap2D](https://github.com/UnderwaterApps/overlap2d): open source game editor. Make sure to check the [[[Overlap2D survival guide for #libGDXJAM](Overlap2D-survival-guide-for-#libGDXJAM)]].
+[Overlap2D](https://github.com/UnderwaterApps/overlap2d): open source game editor. Make sure to check the [Overlap2D survival guide for #libGDXJAM](Overlap2D-survival-guide-for-#libGDXJAM).
 
-[[[images/overlap2d.png](images/overlap2d.png)]]
+[images/overlap2d.png](images/overlap2d.png)
 
 [BDX](https://github.com/GoranM/bdx/wiki): Open source 3D game engine integrated with Blender.		
 		

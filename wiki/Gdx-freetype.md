@@ -88,14 +88,14 @@ Examples:
 parameter.borderColor = Color.BLACK;
 parameter.borderWidth = 3;
 ```
-[[[images/border.png](images/border.png)]]
+[images/border.png](images/border.png)
 
 ```java
 parameter.shadowColor = Color.BLACK;
 parameter.shadowOffsetX = 3;
 parameter.shadowOffsetY = 3;
 ```
-[[[images/shadow.png](images/shadow.png)]]
+[images/shadow.png](images/shadow.png)
 
 You can also load `BitmapFont`s generated via the FreeType extension using AssetManager. See [FreeTypeFontLoaderTest](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/extensions/FreeTypeFontLoaderTest.java)
 

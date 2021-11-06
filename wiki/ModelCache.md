@@ -1,4 +1,4 @@
-When rendering many [[[Models]] using [[ModelBatch](Models]]-using-[[ModelBatch)]] you might notice that it will have an impact on performance. This is often because every [[part|Models#nodepart]] of the model will cause a [[render call|https://github.com/libgdx/libgdx/wiki/ModelBatch#what-are-render-calls]]. Every render call requires the GPU and the CPU to synchronize, which is a relatively costly operation. Therefor you typically want to keep the number of render calls to a minimum.
+When rendering many [Models]] using [[ModelBatch](Models]]-using-[[ModelBatch) you might notice that it will have an impact on performance. This is often because every [[part|Models#nodepart]] of the model will cause a [[render call|https://github.com/libgdx/libgdx/wiki/ModelBatch#what-are-render-calls]]. Every render call requires the GPU and the CPU to synchronize, which is a relatively costly operation. Therefor you typically want to keep the number of render calls to a minimum.
 
 There are multiple ways to reduce the number of render calls. For example by *frustum culling* (not rendering what wont be visible anyway), by *optimizing your models* to contain less parts or by *merging models* to reduce the number of models. [ModelCache](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelCache.html) ([code](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/ModelCache.java)) allows to do the latter two of those at runtime.
 
@@ -10,7 +10,7 @@ ModelCache will not merge skinned meshes. When you add a skinned mesh it will no
 
 ## Using ModelCache
 
-Using ModelCache is similar to using [[[ModelBatch](ModelBatch)]]. To start merging and optimizing models you'll have to call the `begin()` method. Then you can `add()` one or more [ModelInstance](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelInstance.html)s or other [[RenderableProvider|ModelBatch#renderableprovider]]s. After that call the `end()` method to actually perform the merging.
+Using ModelCache is similar to using [ModelBatch](ModelBatch). To start merging and optimizing models you'll have to call the `begin()` method. Then you can `add()` one or more [ModelInstance](https://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelInstance.html)s or other [[RenderableProvider|ModelBatch#renderableprovider]]s. After that call the `end()` method to actually perform the merging.
 
 When the cache is created (after the call to `end()`) you can use it in the call to `ModelBatch.render`.
 

@@ -20,7 +20,7 @@ public class Main {
 					try {
 						System.out.println("Processing " + file.getName());
 						String content = new String(Files.readAllBytes(Paths.get(file.getPath())));
-						Pattern p = Pattern.compile("(?<=\\[\\[)(.((?!\\|).)*)(?=\\]\\])");
+						Pattern p = Pattern.compile("\\[\\[(.((?!\\|).)*)\\]\\]");
 						Matcher m = p.matcher(content);
 						StringBuffer sb = new StringBuffer();
 						while (m.find()) {

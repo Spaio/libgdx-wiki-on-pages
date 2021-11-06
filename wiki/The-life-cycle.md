@@ -1,7 +1,7 @@
 A libGDX application has a well defined life-cycle, governing the states of an application, like creating, pausing and resuming, rendering and disposing the application.
 
 ## ApplicationListener
-An application developer hooks into these life-cycle events by implementing the [ApplicationListener](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/ApplicationListener.html) interface and passing an instance of that implementation to the `Application` implementation of a specific back-end (see [[[The Application Framework](The-Application-Framework)]]). From there on, the `Application` will call the `ApplicationListener` every time an application level event occurs. A bare-bones `ApplicationListener` implementation may look like this:
+An application developer hooks into these life-cycle events by implementing the [ApplicationListener](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/ApplicationListener.html) interface and passing an instance of that implementation to the `Application` implementation of a specific back-end (see [The Application Framework](The-Application-Framework)). From there on, the `Application` will call the `ApplicationListener` every time an application level event occurs. A bare-bones `ApplicationListener` implementation may look like this:
 
 ```java
 public class MyGame implements ApplicationListener {
@@ -40,7 +40,7 @@ Once passed to the `Application`, the `ApplicationListener` methods will be call
 
 The following diagram illustrates the life-cycle visually:
 
-[[[images/70efff32-dd28-11e3-9fc4-1eb57143aee6.png](images/70efff32-dd28-11e3-9fc4-1eb57143aee6.png)]]
+[images/70efff32-dd28-11e3-9fc4-1eb57143aee6.png](images/70efff32-dd28-11e3-9fc4-1eb57143aee6.png)
 
 ## Where is the main loop? ##
 libGDX is event driven by nature, mostly due to the way Android and Javascript work. An explicit main loop does not exist, however, the `ApplicationListener.render()` method can be regarded as the body of such a main loop.

@@ -1,7 +1,6 @@
 
 lsi: false
 safe: true
-source: "/wiki/"
 incremental: false
 highlighter: rouge
 gist:

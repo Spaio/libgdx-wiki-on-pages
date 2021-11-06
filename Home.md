@@ -1,6 +1,5 @@
 ---
-layout: default
-title: kek
+# intentionally left blank
 ---
 
 {% include Sidebar.md %}

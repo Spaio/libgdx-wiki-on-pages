@@ -84,17 +84,18 @@ public class Main {
 
 						byte[] strToBytes = sb.toString().getBytes();
 
-						String filename = file.getName();
+						String filename = file.getName().toLowerCase();
 
-						if (filename.equals("Home.md")) {
-							filename = "index.md";
-						}
+						//if (filename.equals("Home.md")) {
+						//	filename = "index.md";
+						//}
 
 						if (filename.startsWith("_")) {
-							filename = filename.substring(1).toLowerCase();
+							// For hidden files like sidebar and footer
+							filename = filename.substring(1);
 							Files.write(Paths.get("_includes/" + filename), strToBytes);
 						} else {
-							Files.write(Paths.get("wiki/" + filename.toLowerCase()), strToBytes);
+							Files.write(Paths.get("wiki/" + filename), strToBytes);
 						}
 
 					} catch (IOException e) {

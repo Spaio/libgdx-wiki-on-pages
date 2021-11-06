@@ -73,17 +73,17 @@ The Table of contents contains a few pages that do not have a link, and are appe
 
 ## Tables of Contents per page ##
 
-Tables of contents have to be manually created on a per-page basis. For an example of how to do so outside of this section, please refer to our [[box2d|box2d]] article.
+Tables of contents have to be manually created on a per-page basis. For an example of how to do so outside of this section, please refer to our [[[box2d](box2d)]] article.
 
 When creating headers in markdown, we specify using a number of octothorpes (`#`) that define the header level. When we create a header `## Comments and Questions/Concerns ##` in an article entitled `Help Me` the corresponding link would be `help-me#comments-and-questionsconcerns`
 
-so when we go to make our table of contents, it would be in an unordered list, and using these qualified page fragment links. Please see the [[box2d|box2d]] article for more information.
+so when we go to make our table of contents, it would be in an unordered list, and using these qualified page fragment links. Please see the [[[box2d](box2d)]] article for more information.
 
 ## Adding Images ##
 
 Images need to be added manually through a desktop interface (A.K.A. not through the github web interface). Images are stored in the `images/` of the libGDX wiki, which arent accessed through the libGDX wikis github interface. To add an image, you must clone the repo: `$ git clone https://github.com/libgdx/libgdx.wiki.git` add your images to the images folder using the appropriate naming scheme `my-page-name#` where # is the order of the picture displayed on the page (this can be ommitted if only one image is used in the page, but recommended). Images are linked to with the following syntax (assuming the image is stored in the `images/` directory) `[ [images/using-libgdx-with-intellij-idea01.png] ]` (without the spaces in between brackets) which will display:
 
-[[images/using-libgdx-with-intellij-idea01.png|images/using-libgdx-with-intellij-idea01.png]]
+[[[images/using-libgdx-with-intellij-idea01.png](images/using-libgdx-with-intellij-idea01.png)]]
 
 
 ## Large Multi-Page Edits ##

@@ -6,13 +6,13 @@ An animation consists of multiple frames which are shown in a sequence at set in
 
 The following "sprite sheet" image shows a complete cycle of a man running. Each box contains a frame of animation. When these frames are shown sequentially over a period of time, they appear as an animated image.
 
-[[images/sprite-animation1.png|images/sprite-animation1.png]]
+[[[images/sprite-animation1.png](images/sprite-animation1.png)]]
 
 The frame rate is how often the frame is changed per second. The example sprite sheet's complete running cycle has 30 frames (6 columns and 5 rows). If the character is to complete a cycle in one second, 30 frames must be shown per second, so the frame rate is 30 FPS. The time per frame (known as the frame time or interval time) is the reciprocal of the FPS, in this case `0.033 seconds per frame`.
 
 An animation is a very simple state machine. The running man has 30 states as per the sprite sheet. The numbered frames represent the states a running man goes through, only one at a time. The current state is determined by the amount of time since the animation began. If less than 0.033 seconds have elapsed, we are in State 1, so the first sprite is drawn. If we are between 0.033 and 0.067 seconds, then we are in State 2, and so on. If the animation is looping, it returns to the first frame after all frames have been shown.
 
-[[images/sprite-animation2.png|images/sprite-animation2.png]]
+[[[images/sprite-animation2.png](images/sprite-animation2.png)]]
 
 ## The Animation class
 
@@ -107,7 +107,7 @@ public class Animator implements ApplicationListener {
 }
 ```
 
-[[images/sprite-animation3.png|images/sprite-animation3.png]]
+[[[images/sprite-animation3.png](images/sprite-animation3.png)]]
 
 Creating an animation is extremely simple by using the following constructor.
 

@@ -27,7 +27,7 @@ public class Main {
 							String title = m.group(1);
 							String link = m.group(1);
 							link = link.replaceAll(" ", "-");
-							m.appendReplacement(sb, title + "|" + link);
+							m.appendReplacement(sb, "[" + title + "](" + link + ")");
 						}
 						m.appendTail(sb);
 						//System.out.println(sb.toString());

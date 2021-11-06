@@ -1,6 +1,6 @@
 ## Overview ##
 
-scene2d is a 2D scene graph for building applications and UIs using a hierarchy of actors. If you're looking for the UI component of scene2d, see [[Scene2d.ui|Scene2d.ui]]
+scene2d is a 2D scene graph for building applications and UIs using a hierarchy of actors. If you're looking for the UI component of scene2d, see [[[Scene2d.ui](Scene2d.ui)]]
 
 Check out [LibGDX.info](https://libgdx.info/basic_action/) for Scene2d examples (Image, Label etc...)
 
@@ -16,7 +16,7 @@ It provides the following features:
 
  * Action system for easy manipulation of actors over time. Actions can be chained and combined for complex effects.
 
-scene2d is well equipped for laying out, drawing, and handling input for game menus, HUD overlays, tools, and other UIs. The [[scene2d.ui|scene2d.ui]] package provides many actors and other utilities specifically for building UIs.
+scene2d is well equipped for laying out, drawing, and handling input for game menus, HUD overlays, tools, and other UIs. The [[[scene2d.ui](scene2d.ui)]] package provides many actors and other utilities specifically for building UIs.
 
 Scene graphs have the drawback that they couple model and view. Actors store data that is often considered model data in games, such as their size and position. Actors are also the view, as they know how to draw themselves. This coupling makes MVC separation difficult. When used solely for UIs or for apps that don't care about MVC, the coupling is not an issue.
 

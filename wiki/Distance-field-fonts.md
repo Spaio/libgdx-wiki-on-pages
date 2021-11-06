@@ -8,7 +8,7 @@ Traditional bitmap fonts work fine if the pixels in the font map 1:1 onto screen
 
 Using a distance field font lets you render text that remains crisp even under rotations and other arbitrary transforms, even blown up to a large magnification, without notable extra run-time cost. You can see the difference below:
 
-[[images/distance-field-fonts.png|images/distance-field-fonts.png]]
+[[[images/distance-field-fonts.png](images/distance-field-fonts.png)]]
 
 The same technique can also be used to draw symbols, logos, anything. The major drawback is that it works only for monochrome images; it is not possible to use this technique for arbitrary color images.
 
@@ -27,7 +27,7 @@ We then set up alpha testing to output a pixel only when the alpha is greater th
 This process is much the same as for regular [[bitmap fonts|Bitmap Fonts]], but with different settings.
 
   * [[Fire up Hiero|Hiero]] and choose your font and attributes as normal.
-  * In the "Effects" list on the right, double-click "Distance field". (If there is no filter called "Distance field", your version of Hiero is too old. Try the nightly build as described on the [[Hiero|Hiero]] page.)
+  * In the "Effects" list on the right, double-click "Distance field". (If there is no filter called "Distance field", your version of Hiero is too old. Try the nightly build as described on the [[[Hiero](Hiero)]] page.)
   * Remove the default "Color" effect by clicking the X.
   * Set the color of the distance field if you like. It is best to leave this set to white, because you can change the color at rendering time.
   * Set the "Spread" to a suitable value. It should be about half the width of the thickest lines in your font, in pixels. At most, there should be small regions of bright white; don't lose too much contrast.
@@ -36,7 +36,7 @@ This process is much the same as for regular [[bitmap fonts|Bitmap Fonts]], but 
   * Select the "Glyph cache" radio button and set the page size such that all glyphs fit on one page, with as little waste as possible. This makes loading easier.
   * Set the "Scale" to something larger than 1. We save this step for last because the higher the scale, the slower the font generation gets. 32 is a good value. You should now have something like this: 
 
-[[images/distance-field-fonts-hiero.png|images/distance-field-fonts-hiero.png]]
+[[[images/distance-field-fonts-hiero.png](images/distance-field-fonts-hiero.png)]]
 
   * Save the font as usual to your assets directory.
 

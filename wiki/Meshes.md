@@ -46,9 +46,9 @@ public Mesh createFullScreenQuad() {
 // original code by kalle_h
 ```
 
-Notice the use of a simple `float` array to build the basic vertex information. We define four vertices each composed of a position in window coordinates as well as a texture coordinate. Next we tell the mesh constructor this will be a static mesh with 4 vertices and no indices. We define two vertex attributes, stating their respective sizes and describing their properties using the built-in libGDX constants for common attribute types. The usage constants tell libGDX how to interpret each of the float values so that it can point OpenGL at the proper data when rendering. Note that in OpenGL ES2, the use of [[Shaders|Shaders]] does free one up to include other types of attributes in vertices (ie. vertex illumination values in a baked vertex-lighting situation, or even physical properties like mesh flexibility for simple wind based vertex animation). Finally we set the the mesh vertices using our previously built `float` array.
+Notice the use of a simple `float` array to build the basic vertex information. We define four vertices each composed of a position in window coordinates as well as a texture coordinate. Next we tell the mesh constructor this will be a static mesh with 4 vertices and no indices. We define two vertex attributes, stating their respective sizes and describing their properties using the built-in libGDX constants for common attribute types. The usage constants tell libGDX how to interpret each of the float values so that it can point OpenGL at the proper data when rendering. Note that in OpenGL ES2, the use of [[[Shaders](Shaders)]] does free one up to include other types of attributes in vertices (ie. vertex illumination values in a baked vertex-lighting situation, or even physical properties like mesh flexibility for simple wind based vertex animation). Finally we set the the mesh vertices using our previously built `float` array.
 
-Notice also the use of ShaderProgram constants to name the attributes. While not mandatory, it can be useful to maintain the same name for shader attributes for common properties such as vertex positions, normals, or texture coordinates as these are the names used across common libGDX shaders. This naming uniformity can help when one wants to swap shaders on the same meshes. See [[Shaders|Shaders]] for more information.
+Notice also the use of ShaderProgram constants to name the attributes. While not mandatory, it can be useful to maintain the same name for shader attributes for common properties such as vertex positions, normals, or texture coordinates as these are the names used across common libGDX shaders. This naming uniformity can help when one wants to swap shaders on the same meshes. See [[[Shaders](Shaders)]] for more information.
 
 ## Rendering ##
 
@@ -68,4 +68,4 @@ mesh.render( shader, GL20.GL_TRIANGLES );   // OpenGL ES2 requires a shader
 mesh.render( shader, GL20.GL_LINES );       // renders lines instead
 ```
 
-By default, a mesh will auto-bind its data upon a call to `render()`. Prior to calling `render()`, you will need to bind the texture and set model transformations and if using OpenGL ES2 you will need bind an appropriate [[Shaders|Shaders]] and pass whatever uniforms it requires.
+By default, a mesh will auto-bind its data upon a call to `render()`. Prior to calling `render()`, you will need to bind the texture and set model transformations and if using OpenGL ES2 you will need bind an appropriate [[[Shaders](Shaders)]] and pass whatever uniforms it requires.

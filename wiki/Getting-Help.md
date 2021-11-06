@@ -166,7 +166,7 @@ public class BarebonesBatch extends ApplicationAdapter {
 
 ### <a id="barebones_Stage"></a>Barebones Stage ###
 
-This barebones application has a [[scene2d]] Stage and uses [[scene2d.ui]] to draw a label and a button. It uses the [[Skin|scene2d]]-Stage-and-uses-[[scene2d.ui]]-to-draw-a-label-and-a-button.-It-uses-the-[[Skin]] from the `gdx-tests-lwjgl` project.
+This barebones application has a [[[scene2d]] Stage and uses [[scene2d.ui]] to draw a label and a button. It uses the [[Skin](scene2d]]-Stage-and-uses-[[scene2d.ui]]-to-draw-a-label-and-a-button.-It-uses-the-[[Skin)]] from the `gdx-tests-lwjgl` project.
 
 ```java
 import com.badlogic.gdx.*;

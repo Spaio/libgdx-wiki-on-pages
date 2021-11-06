@@ -128,7 +128,7 @@ Once the plugins are installed, you can import your Maven libGDX projects by goi
 
 *Note* that the HTML project might not be recognized as a GWT project by Eclipse. To fix this, right click the project, go to *Properties -> Google -> Web Toolkit*. Check "Use Google Web Toolkit". Then go to *Properties -> Google -> Web Application*, check "This project has a WAR directory", specify `target/webapp` and finally check "Launch and deploy from this directory".
 
-From there on you can [[Project Setup, Running & Debugging|Project-Setup,-Running-&-Debugging]] just as you'd do if you setup your projects via the gdx-setup-ui. 
+From there on you can [[[Project Setup, Running & Debugging](Project-Setup,-Running-&-Debugging)]] just as you'd do if you setup your projects via the gdx-setup-ui. 
 
 If you change anything in the assets, you need to run "mvn -Phtml package" again and refresh the html project in Eclipse.
 
@@ -139,16 +139,16 @@ Once you created your project via the archetype you can import it into IntelliJ 
 
 Once the project is loaded, you have to enable the profiles. Open the Maven Project view and check the three profiles, desktop, android and HTML. 
 
-[[images/maven1.png|images/maven1.png]]
+[[[images/maven1.png](images/maven1.png)]]
 
 To run the desktop project, create a new configuration via *Run -> Edit Configurations*. Create a new configuration by clicking the + button in the top left, and select Application. Set the Main class to the desktop starter class, and select the desktop module.
 
-[[images/maven2.png|images/maven2.png]]
+[[[images/maven2.png](images/maven2.png)]]
 
 Launch this configuration to run your app on the desktop.
 
 To run the android project, create a new configuration, this time selecting Android Application when creating the configuration. Select the Android module, then check *Run Maven Goal* and click on the *...* button to the right. In the dialog, select the Android project, then Lifecycle, and from the list of goals *package*. You can also set *Target Device* to *Show chooser dialog* so you get prompted whether to deploy to a device or an emulator.
 
-[[images/maven3.png|images/maven3.png]]
+[[[images/maven3.png](images/maven3.png)]]
 
 Launch this configuration to run your app on your Android device or emulator.

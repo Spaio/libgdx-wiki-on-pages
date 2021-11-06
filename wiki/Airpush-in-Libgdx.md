@@ -37,19 +37,19 @@ What SDK do I recommend?. Well I use both, I make an app that implements the sta
 
 Log in to your Airpush Account, you will be taken to the Dashboard. Click the Add Application button left of the screen.
 
-[[images/aptuto1.png|images/aptuto1.png]]
+[[[images/aptuto1.png](images/aptuto1.png)]]
 
 Fill all the fields in the first tab and Click Continue. Don't worry if you haven't uploaded your app to Google Play yet, just put your package name there and it will be automatically checked when its up. But try not to take more than 48 hours to publish it.
 
-[[images/aptuto4.png|images/aptuto4.png]]
+[[[images/aptuto4.png](images/aptuto4.png)]]
 
 In the next tab, uncheck Push Notification ads, and Icon Ads, you don't need those and also they don't complain with Google Play policies. You will be using Standard or Bundle SDK or both, and they don't use them. Check SmartWall Ads, and Banner Ads. Also you can check "Exclude dating campaigns" if you don't want your users to see sexually suggestive ads (I always check it).
 
-[[images/aptuto2.png|images/aptuto2.png]]
+[[[images/aptuto2.png](images/aptuto2.png)]]
 
 Back in the Dashboard save your API Key and Your App ID. You will need these later.
 
-[[images/aptuto3.png|images/aptuto3.png]]
+[[[images/aptuto3.png](images/aptuto3.png)]]
 
 # Step 3. Add Google Play Services Library.- #
 
@@ -57,17 +57,17 @@ You must import Google Play Services Library and link it to your Android libGDX 
 
 First of all, install/update it. Open Android SDK Manager and install Google Play Services under Extras.
 
-[[images/aptuto5.png|images/aptuto5.png]]
+[[[images/aptuto5.png](images/aptuto5.png)]]
 
 Now go to your Android SDK Installation 'Folder -> extras -> google -> google_play_services -> libproject' and copy "google-play-services_lib" folder to your workspace.
 
 Now, import the project like this in eclipse: 'File -> import... -> Android -> Existing Android Code Into Workspace'. You will end up with something like this:
 
-[[images/aptuto6.png|images/aptuto6.png]]
+[[[images/aptuto6.png](images/aptuto6.png)]]
 
 Right click the Android Project, go to 'Properties -> Android' and scroll down. Click the "Add..." button and choose the services project. Will end up like this:
 
-[[images/aptuto7.png|images/aptuto7.png]]
+[[[images/aptuto7.png](images/aptuto7.png)]]
 
 # Step 4. Adding the Airpush SDK.- #
 
@@ -79,7 +79,7 @@ Right click your Android Project and choose 'Properties -> Java Build Path', go 
 
 Switch to the 'Order and Export' tab and be sure to check both new jars. Will end up like this:
 
-[[images/aptuto8.png|images/aptuto8.png]]
+[[[images/aptuto8.png](images/aptuto8.png)]]
 
 Click Ok to finish.
 

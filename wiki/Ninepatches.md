@@ -34,7 +34,7 @@ features" (since this area will be scaled). In this case I'll create a
 "button". My art skills are non existent, so please bear with me on this
 example.
 
-[[images/ninepatches1.png|images/ninepatches1.png]]
+[[[images/ninepatches1.png](images/ninepatches1.png)]]
 
 As one may notice, this "button" is fairly round. One of the wonders
 with NinePatch is that it will wrap around the content we give it, thus
@@ -64,7 +64,7 @@ TextButton button = new TextButton("hello world", style);
 
 The result of adding this TextButton to a stage is illustrated below:
 
-[[images/ninepatches2.png|images/ninepatches2.png]]
+[[[images/ninepatches2.png](images/ninepatches2.png)]]
 
 Our round image has now scaled with the content length (the text). The button use the standard BitmapFont and some awful colours.
 
@@ -72,7 +72,7 @@ Our round image has now scaled with the content length (the text). The button us
 
 Limitations with instantiating a NinePatch directly (using Libgdx) is that your fixed regions all will be the same square. Below I have attached an image illustrating what the four integer arguments actually define in the NinePatch. The gray area not overlapped by cyan is the scaleable area.
 
-[[images/ninepatches3.png|images/ninepatches3.png]]
+[[[images/ninepatches3.png](images/ninepatches3.png)]]
 
 ## Creating and instantiating a NinePatch using SkinPacker ##
 
@@ -105,7 +105,7 @@ pre-view of the scaled image. Below is just the image loaded into the
 *draw9patch* tool. Notice the "pre-view" to the left, and how the image
 does not scale well at all.
 
-[[images/ninepatches4.png|images/ninepatches4.png]]
+[[[images/ninepatches4.png](images/ninepatches4.png)]]
 
 In the following picture, I have defined what area the content will be
 placed in (in other words, what will be scaled), and what areas I don't
@@ -114,20 +114,20 @@ in the image. You see that the tool previews the content (pink area),
 and that the previews scales much better (in the right side of the
 screenshot).
 
-[[images/ninepatches5.png|images/ninepatches5.png]]
+[[[images/ninepatches5.png](images/ninepatches5.png)]]
 
 Now save the image as _image.9.png_. This can't be underlined enough,
 since libGDX won't recognize the file as a NinePatch otherwise. Below is
 the finished image in all its NinePatch glamour, and ready to be used in
 code.
 
-[[images/ninepatches6.png|images/ninepatches6.png]]
+[[[images/ninepatches6.png](images/ninepatches6.png)]]
 
 ## Defining a NinePatch programmatically ##
 
 See [this](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g2d/NinePatch.html#NinePatch%28com.badlogic.gdx.graphics.Texture,%20int,%20int,%20int,%20int%29) NinePatch constructor.
 
-[[images/ninepatches7.png|images/ninepatches7.png]]
+[[[images/ninepatches7.png](images/ninepatches7.png)]]
 
 ### Pack the image using SkinPacker ###
 

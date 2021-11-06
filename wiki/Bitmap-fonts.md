@@ -17,7 +17,7 @@ References point to bmFont being originally created by Andreas Jönsson over at 
 
 ## Tools for Creating Bitmaps
 
-[[Hiero|Hiero]] - a utility for converting a system font to a bitmap
+[[[Hiero](Hiero)]] - a utility for converting a system font to a bitmap
 
 [ShoeBox](http://renderhjs.net/shoebox/)  - lets you load customized glyphs from an image, and then create a bitmap font from them. [There's a great tutorial for using it with libgdx](https://www.youtube.com/watch?v=dxPf1M7YORU&feature=youtu.be).
 
@@ -47,7 +47,7 @@ Examples
 
 
 
-[[Distance field fonts|Distance-field-fonts]] - useful for scaling/rotating fonts without ugly artifacts
+[[[Distance field fonts](Distance-field-fonts)]] - useful for scaling/rotating fonts without ugly artifacts
 
 [gdx-smart-font](https://github.com/jrenner/gdx-smart-font) - unofficial libGDX addon for automatically generating and caching bitmap fonts based on screen size. (Uses FreeTypeFontGenerator)
 

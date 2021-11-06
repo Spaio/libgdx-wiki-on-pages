@@ -380,7 +380,7 @@ The main application to bootstrap the listener is a simple LWJGL application.
 
 The result is the following application:
 
-[[images/orthographic-camera.png|images/orthographic-camera.png]]
+[[[images/orthographic-camera.png](images/orthographic-camera.png)]]
 
 Most of the time, one should not need to access the internals of a camera as the most common use-cases are covered by the following methods:
 

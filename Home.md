@@ -1,3 +1,23 @@
+<style type="text/css">
+ .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+ .one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+ </style>
+ 
+ <div class="wrapper">
+ 
+ <div class="one>
 ![logo](https://libgdx.com/assets/images/logo.png)
 
 **Welcome to our Wiki, a place for comprehensive documentation on the libGDX API and features.** This wiki is community driven, and can be edited by anyone. If you find information out of date or want to add some more in-depth explanations, you are very welcome to do the necessary changes after having had a look at our [[Wiki Style Guide]].  
@@ -156,3 +176,9 @@
 * [[Adding Extensions and 3rd Party Libraries|Dependency management with Gradle]]
 * [[Improving Your Gradle Workflow|Improving-workflow-with-Gradle]]
 * [[Creating Asset Project in Eclipse|Creating-a-Separate-Assets-Project-in-Eclipse]]
+             </div>
+             <div class="two">Two
+                             </div>
+             
+             
+ </div>

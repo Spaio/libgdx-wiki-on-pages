@@ -19,7 +19,7 @@ jobs:
       run: |
         git clone https://github.com/libgdx/libgdx.wiki.git wiki_src
         rm -rf wiki_src/.git
-        cp wiki_src/*/ /wiki/
+        cp -r wiki_src/*/ /wiki/
     - name: Launch translator
       run: java WikiToPagesTranslator.java
     - name: Remove wiki src folder

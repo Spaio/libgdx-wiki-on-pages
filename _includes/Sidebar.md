@@ -1,5 +1,5 @@
 # Table of Contents
-[Wiki Style Guide](Wiki-Style-Guide)
+[Wiki Style Guide](wiki-style-guide)
 
 ## Getting Started
 * [Setting Up a Dev Environment](https://libgdx.com/dev/setup/)
@@ -11,139 +11,139 @@
 ## Developer's Guide
 <details><summary>The Application Framework</summary>
 
-* [The Application Framework](The-Application-Framework)  
-* [The Life-Cycle](The-Life-Cycle)  
-* [Modules Overview](Modules-Overview)  
-* [Starter Classes and Configuration](Starter-Classes-and-Configuration)  
-* [Querying](Querying)  
-* [Logging](Logging)  
-* [Threading](Threading)  
-* [Interfacing With Platform-Specific Code](Interfacing-With-Platform-Specific-Code)
+* [The Application Framework](the-application-framework)  
+* [The Life-Cycle](the-life-cycle)  
+* [Modules Overview](modules-overview)  
+* [Starter Classes and Configuration](starter-classes-and-configuration)  
+* [Querying](querying)  
+* [Logging](logging)  
+* [Threading](threading)  
+* [Interfacing With Platform-Specific Code](interfacing-with-platform-specific-code)
 
 </details>
 
-[File Handling](File-Handling)
+[File Handling](file-handling)
 
-[Networking](Networking)
+[Networking](networking)
 
-[Preferences](Preferences)
+[Preferences](preferences)
 
 <details><summary>Input Handling</summary>
 
-* [Input Handling](Input-Handling)
-* [Configuration and Querying](Configuration-and-Querying)
-* [Mouse, Touch and Keyboard](Mouse,-Touch-and-Keyboard)
-  * [Polling](Polling)  
-  * [Event Handling](Event-Handling)
-* [Controllers](Controllers)
-* [Gesture Detection](Gesture-Detection)
-* [Simple Text Input](Simple-Text-Input)
-* [Accelerometer](Accelerometer)
-* [Compass](Compass)
-* [Gyroscope](Gyroscope)
-* [Vibrator](Vibrator)
-* [Cursor Visibility and Catching](Cursor-Visibility-and-Catching)
-* [Back and Menu Key Catching](Back-and-Menu-Key-Catching)
-* [On-Screen Keyboard](On-Screen-Keyboard)
-* [Adding new Keycodes](Adding-new-Keycodes)
+* [Input Handling](input-handling)
+* [Configuration and Querying](configuration-and-querying)
+* [Mouse, Touch and Keyboard](mouse,-touch-and-keyboard)
+  * [Polling](polling)  
+  * [Event Handling](event-handling)
+* [Controllers](controllers)
+* [Gesture Detection](gesture-detection)
+* [Simple Text Input](simple-text-input)
+* [Accelerometer](accelerometer)
+* [Compass](compass)
+* [Gyroscope](gyroscope)
+* [Vibrator](vibrator)
+* [Cursor Visibility and Catching](cursor-visibility-and-catching)
+* [Back and Menu Key Catching](back-and-menu-key-catching)
+* [On-Screen Keyboard](on-screen-keyboard)
+* [Adding new Keycodes](adding-new-keycodes)
 
 </details>
 
-[Memory Management](Memory-Management)
+[Memory Management](memory-management)
 
 <details><summary>Audio</summary>
 
-* [Audio](Audio)
-* [Sound Effects](Sound-Effects)
-* [Streaming Music](Streaming-Music)
-* [Playing PCM Audio](Playing-PCM-Audio)
-* [Recording PCM Audio](Recording-PCM-Audio)
+* [Audio](audio)
+* [Sound Effects](sound-effects)
+* [Streaming Music](streaming-music)
+* [Playing PCM Audio](playing-pcm-audio)
+* [Recording PCM Audio](recording-pcm-audio)
 
 </details>
 
 <details><summary>Graphics</summary>
 
-* [Graphics](Graphics)
-* [Querying and configuring graphics (monitors, display modes, vsync, display cutouts)](Querying-and-configuring-graphics-(monitors,-display-modes,-vsync,-display-cutouts))
-* [Continuous and Non-Continuous Rendering](Continuous-and-Non-Continuous-Rendering)
-* [Clearing the Screen](Clearing-the-Screen)
-* [Taking a Screenshot](Taking-a-Screenshot)
-* [Profiling](Profiling)
-* [Viewports](Viewports)
-* [OpenGL (ES) Support](OpenGL-(ES)-Support)  
+* [Graphics](graphics)
+* [Querying and configuring graphics (monitors, display modes, vsync, display cutouts)](querying-and-configuring-graphics-(monitors,-display-modes,-vsync,-display-cutouts))
+* [Continuous and Non-Continuous Rendering](continuous-and-non-continuous-rendering)
+* [Clearing the Screen](clearing-the-screen)
+* [Taking a Screenshot](taking-a-screenshot)
+* [Profiling](profiling)
+* [Viewports](viewports)
+* [OpenGL (ES) Support](opengl-(es)-support)  
   * Configuration and Querying OpenGL ??  
   * Direct Access ??  
   * Utility Classes  
-     -[Rendering Shapes](Rendering-Shapes)  
-     -[Textures and TextureRegions](Textures-and-TextureRegions)  
-     -[Meshes](Meshes)  
-     -[Shaders](Shaders)  
-     -[Frame Buffer Objects](Frame-Buffer-Objects)
+     -[Rendering Shapes](rendering-shapes)  
+     -[Textures and TextureRegions](textures-and-textureregions)  
+     -[Meshes](meshes)  
+     -[Shaders](shaders)  
+     -[Frame Buffer Objects](frame-buffer-objects)
 
 &nbsp;&nbsp;&nbsp; **2D Graphics**  
-* [SpriteBatch, TextureRegions, and Sprites](SpriteBatch,-TextureRegions,-and-Sprites)  
-* [2D Animation](2D-Animation)  
-* [Clipping, With the Use of ScissorStack](Clipping,-With-the-Use-of-ScissorStack)  
-* [Masking](Masking)  
-* [Orthographic Camera](Orthographic-Camera)  
+* [SpriteBatch, TextureRegions, and Sprites](spritebatch,-textureregions,-and-sprites)  
+* [2D Animation](2d-animation)  
+* [Clipping, With the Use of ScissorStack](clipping,-with-the-use-of-scissorstack)  
+* [Masking](masking)  
+* [Orthographic Camera](orthographic-camera)  
 * Mapping Touch Coordinates ??  
-* [NinePatches](NinePatches)  
-* [Bitmap Fonts](Bitmap-Fonts)  
-  * [Distance Field Fonts](Distance-Field-Fonts)  
-  * [Color Markup Language](Color-Markup-Language)  
-* [Using TextureAtlases](Using-TextureAtlases)  
-* [Pixmaps](Pixmaps)  
-* [Packing Atlases Offline](Packing-Atlases-Offline)  
-* [Packing Atlases at Runtime](Packing-Atlases-at-Runtime)  
-* [Texture Compression](Texture-Compression)  
-* [2D ParticleEffects](2D-ParticleEffects)  
-* [Tile Maps](Tile-Maps)  
+* [NinePatches](ninepatches)  
+* [Bitmap Fonts](bitmap-fonts)  
+  * [Distance Field Fonts](distance-field-fonts)  
+  * [Color Markup Language](color-markup-language)  
+* [Using TextureAtlases](using-textureatlases)  
+* [Pixmaps](pixmaps)  
+* [Packing Atlases Offline](packing-atlases-offline)  
+* [Packing Atlases at Runtime](packing-atlases-at-runtime)  
+* [Texture Compression](texture-compression)  
+* [2D ParticleEffects](2d-particleeffects)  
+* [Tile Maps](tile-maps)  
 * [scene2d](scene2d)  
 * [scene2d.ui](scene2d.ui)  
-  * [Table](Table)  
-  * [Skin](Skin)  
-* [ImGui](ImGui)
+  * [Table](table)  
+  * [Skin](skin)  
+* [ImGui](imgui)
 
-&nbsp;&nbsp;&nbsp; **[3D Graphics](3D-Graphics)**
+&nbsp;&nbsp;&nbsp; **[3D Graphics](3d-graphics)**
 
-* [Quick Start](Quick-Start)  
-* [Models](Models)  
-* [Material and Environment](Material-and-Environment)  
-* [ModelBatch](ModelBatch)  
-* [ModelCache](ModelCache)  
-* [ModelBuilder, MeshBuilder and MeshPartBuilder](ModelBuilder,-MeshBuilder-and-MeshPartBuilder)  
-* [3D Animations and Skinning](3D-Animations-and-Skinning)  
-* [Importing Blender Models in libGDX](Importing-Blender-Models-in-libGDX)  
-* [3D Particle Effects](3D-Particle-Effects)  
-* [Virtual Reality (VR)](Virtual-Reality-(VR))
-* [3D Picking](3D-Picking)
+* [Quick Start](quick-start)  
+* [Models](models)  
+* [Material and Environment](material-and-environment)  
+* [ModelBatch](modelbatch)  
+* [ModelCache](modelcache)  
+* [ModelBuilder, MeshBuilder and MeshPartBuilder](modelbuilder,-meshbuilder-and-meshpartbuilder)  
+* [3D Animations and Skinning](3d-animations-and-skinning)  
+* [Importing Blender Models in libGDX](importing-blender-models-in-libgdx)  
+* [3D Particle Effects](3d-particle-effects)  
+* [Virtual Reality (VR)](virtual-reality-(vr))
+* [3D Picking](3d-picking)
 * Perspective Camera ??  
 
 </details>
 
-[Managing Your Assets](Managing-Your-Assets)
+[Managing Your Assets](managing-your-assets)
 
-[HTML5 Backend and GWT Specifics](HTML5-Backend-and-GWT-Specifics)
+[HTML5 Backend and GWT Specifics](html5-backend-and-gwt-specifics)
 
-[Internationalization and Localization](Internationalization-and-Localization)
+[Internationalization and Localization](internationalization-and-localization)
 
 <details><summary>Utilities</summary>
 
-* [Reading and Writing JSON](Reading-and-Writing-JSON)
-* [Reading and Writing XML](Reading-and-Writing-XML)
-* [Collections](Collections)
-* [Reflection](Reflection)
+* [Reading and Writing JSON](reading-and-writing-json)
+* [Reading and Writing XML](reading-and-writing-xml)
+* [Collections](collections)
+* [Reflection](reflection)
 * [jnigen](jnigen)
 
 </details>
 
 <details><summary>Math Utilities</summary>
 
-* [Math Utilities](Math-Utilities)
-* [Interpolation](Interpolation)
-* [Vectors, Matrices, Quaternions](Vectors,-Matrices,-Quaternions)
-* [Circles, Planes, Rays, etc.](Circles,-Planes,-Rays,-etc.)
-* [Path Interface and Splines](Path-Interface-and-Splines)
+* [Math Utilities](math-utilities)
+* [Interpolation](interpolation)
+* [Vectors, Matrices, Quaternions](vectors,-matrices,-quaternions)
+* [Circles, Planes, Rays, etc.](circles,-planes,-rays,-etc.)
+* [Path Interface and Splines](path-interface-and-splines)
 * Bounding Volumes ??
 * Intersection and Overlap Testing ??
 
@@ -151,22 +151,22 @@
 
 <details><summary>Tools</summary>
 
-* [Texture Packer](Texture-Packer)
-* [Hiero](Hiero)
-* [2D Particle Editor](2D-Particle-Editor)
-* [Skin Composer](Skin-Composer)
-* [Overlap2D](Overlap2D)
+* [Texture Packer](texture-packer)
+* [Hiero](hiero)
+* [2D Particle Editor](2d-particle-editor)
+* [Skin Composer](skin-composer)
+* [Overlap2D](overlap2d)
 
 </details>
 
 <details><summary>Extensions</summary>
 
-* [Artificial Intelligence](Artificial-Intelligence)
+* [Artificial Intelligence](artificial-intelligence)
 * [gdx-freetype](gdx-freetype)
 * [gdx-pay](gdx-pay): cross-platform In-App-Purchasing API
-* [Physics](Physics)  
-  * [Box2D](Box2D)  
-  * [Bullet Physics](Bullet-Physics)  
+* [Physics](physics)  
+  * [Box2D](box2d)  
+  * [Bullet Physics](bullet-physics)  
      -[[Setup|Bullet Wrapper Setup]]  
      -[[Using the Wrapper|Bullet Wrapper Using the wrapper]]  
      -[[Using Models|Bullet Wrapper Using models]]  
@@ -178,32 +178,32 @@
 
 <details><summary>Using libGDX With Other JVM Languages</summary>
 
-* [Using libGDX With Other JVM Languages](Using-libGDX-With-Other-JVM-Languages)
-* [Using libGDX With Clojure](Using-libGDX-With-Clojure)
-* [Using libGDX With Kotlin](Using-libGDX-With-Kotlin)
-* [Using libGDX With Python](Using-libGDX-With-Python)
-* [Using libGDX With Scala](Using-libGDX-With-Scala)
+* [Using libGDX With Other JVM Languages](using-libgdx-with-other-jvm-languages)
+* [Using libGDX With Clojure](using-libgdx-with-clojure)
+* [Using libGDX With Kotlin](using-libgdx-with-kotlin)
+* [Using libGDX With Python](using-libgdx-with-python)
+* [Using libGDX With Scala](using-libgdx-with-scala)
 
 </details>
 
 <details><summary>Third Party Services</summary>
 
-* [AdMob in libGDX](AdMob-in-libGDX)
-* [Airpush in libGDX](Airpush-in-libGDX)
-* [Firebase in libGDX](Firebase-in-libGDX)
-* [Smaato in libGDX](Smaato-in-libGDX)
-* [Google Play Games Services in libGDX](Google-Play-Games-Services-in-libGDX)
-* [Pollfish in libGDX](Pollfish-in-libGDX)
-* [ProGuard/DexGuard and libGDX](ProGuard/DexGuard-and-libGDX)
+* [AdMob in libGDX](admob-in-libgdx)
+* [Airpush in libGDX](airpush-in-libgdx)
+* [Firebase in libGDX](firebase-in-libgdx)
+* [Smaato in libGDX](smaato-in-libgdx)
+* [Google Play Games Services in libGDX](google-play-games-services-in-libgdx)
+* [Pollfish in libGDX](pollfish-in-libgdx)
+* [ProGuard/DexGuard and libGDX](proguard/dexguard-and-libgdx)
 
 </details>
 
 ## Articles
-* [Getting Help](Getting-Help)
-* [External Tutorials](External-Tutorials)
-* [Java Development Kit - Selection](Java-Development-Kit---Selection)
-* [Deploying your application](Deploying-your-application)
-* [Coordinate systems](Coordinate-systems)
+* [Getting Help](getting-help)
+* [External Tutorials](external-tutorials)
+* [Java Development Kit - Selection](java-development-kit---selection)
+* [Deploying your application](deploying-your-application)
+* [Coordinate systems](coordinate-systems)
 * [[Updating Your libGDX Version|Updating libGDX]]
 * [[Adding Extensions and 3rd Party Libraries|Dependency management with Gradle]]
 * [[Improving Your Gradle Workflow|Improving-workflow-with-Gradle]]

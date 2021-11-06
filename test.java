@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -34,7 +35,12 @@ public class Main {
 
 						byte[] strToBytes = sb.toString().getBytes();
 
-						Files.write(Paths.get("wiki/" + file.getName().toLowerCase()), strToBytes);
+						if (file.getName().startsWith("_")) {
+							String filename = file.getName().substring(1).toLowerCase();
+							Files.write(Paths.get("_includes/" + filename), strToBytes);
+						} else {
+							Files.write(Paths.get("wiki/" + file.getName().toLowerCase()), strToBytes);
+						}
 
 					} catch (IOException e) {
 						e.printStackTrace();

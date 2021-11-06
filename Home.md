@@ -6,6 +6,9 @@
 
 {% include_relative Hiero.md %}
 
+{% capture my_include %}{% include Sidebar.md %}{% endcapture %}
+{{ my_include | markdownify }}
+
 ![logo](https://libgdx.com/assets/images/logo.png)
 
 **Welcome to our Wiki, a place for comprehensive documentation on the libGDX API and features.** This wiki is community driven, and can be edited by anyone. If you find information out of date or want to add some more in-depth explanations, you are very welcome to do the necessary changes after having had a look at our [[Wiki Style Guide]].  

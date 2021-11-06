@@ -76,6 +76,12 @@ public class Main {
 							m.appendReplacement(sb, "[" + title + "](" + link + ")");
 						}
 						m.appendTail(sb);
+						
+						// Inserts {% raw %} at the beginning of document
+						// and {% endraw %} at the end
+						// It prevents parsing errors for Jekylls (disables processing)
+						sb.insert(0, "{% raw %}\n");
+						sb.append("\n{% endraw %}");
 
 						byte[] strToBytes = sb.toString().getBytes();
 

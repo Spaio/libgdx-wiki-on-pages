@@ -7,3 +7,5 @@ highlighter: rouge
 gist:
   noscript: false
 markdown: GFM
+
+theme: jekyll-theme-architect

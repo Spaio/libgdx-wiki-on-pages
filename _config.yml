@@ -8,4 +8,5 @@ gist:
   noscript: false
 markdown: GFM
 
-theme: jekyll-theme-architect
+
+#theme: jekyll-theme-architect

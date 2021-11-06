@@ -1,6 +1,3 @@
----
----
-{% raw  %}
 ## Overview ##
 
 Technically speaking, _internationalization_ is the process of designing a software so that it can potentially be adapted to various languages and regions without engineering changes.
@@ -24,9 +21,9 @@ Each bundle is a set of properties files that share the same base name, `MyBundl
 You should always create a _default properties file_, without any language code, country code or variant. In our example the contents of `MyBundle.properties` are as follows:
 ````
 game=My Super Cool Game
-newMission={0}, you have a new mission. Reach level {1}.
-coveredPath=You covered {0,number}% of the path
-highScoreTime=High score achieved on {0,date} at {0,time}
+newMission=&#123;0&#125;, you have a new mission. Reach level &#123;1&#125;.
+coveredPath=You covered &#123;0,number&#125;% of the path
+highScoreTime=High score achieved on &#123;0,date&#125; at &#123;0,time&#125;
 ````
 
 To support an additional Locale, your localizers will create an _additional properties file_ that contains the translated values. No changes to your source code are required, because your program references the keys, not the values.
@@ -34,9 +31,9 @@ To support an additional Locale, your localizers will create an _additional prop
 For example, to add support for the Italian language, your localizers would translate the values in `MyBundle.properties` and place them in a file named `MyBundle_it.properties`. The contents of `MyBundle_it.properties` are as follows:
 
 ````
-newMission={0}, hai una nuova missione. Raggiungi il livello {1}.
-coveredPath=Hai coperto il {0,number}% del percorso
-highScoreTime=High score ottenuto il {0,date} alle ore {0,time}
+newMission=&#123;0&#125;, hai una nuova missione. Raggiungi il livello &#123;1&#125;.
+coveredPath=Hai coperto il &#123;0,number&#125;% del percorso
+highScoreTime=High score ottenuto il &#123;0,date&#125; alle ore &#123;0,time&#125;
 ````
 Notice that the key named `game` is missing from the Italian properties file since we want the game's name to remain unchanged regardless of the locale. If a key is not found, the key will be looked up in decreasingly specific properties files until found; for instance, if a key is not found in `MyBundle_en_GB.properties`, it will be looked up in `MyBundle_en.properties`, and if not found there either, in the default `MyBundle.properties`.
 
@@ -101,9 +98,9 @@ When a string has no arguments, you might think that the methods `get` and `form
 
 ## Message Format ##
 
-As we have seen, the strings in a properties file can contain parameters. These strings are commonly called patterns and follow the syntax specified by the `java.text.MessageFormat` API. In short, a pattern can contain zero or more formats of the form `{index, type, style}` where the type and the style are optional. Refer to the [official JavaDoc of the `MessageFormat` class](https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html) to learn all its features.
+As we have seen, the strings in a properties file can contain parameters. These strings are commonly called patterns and follow the syntax specified by the `java.text.MessageFormat` API. In short, a pattern can contain zero or more formats of the form `&#123;index, type, style&#125;` where the type and the style are optional. Refer to the [official JavaDoc of the `MessageFormat` class](https://docs.oracle.com/javase/7/docs/api/java/text/MessageFormat.html) to learn all its features.
 
-**Important**: There is one change that libGDX makes to `MessageFormat`'s syntax, because the default escaping rules have proved to be somewhat confusing to localizers. If you want to use a literal `{` in your string, normally you would need to escape it using single quotes (`'`). In libGDX however, you just double it; for example, `{{0}}` is interpreted as the literal string `{0}`, without any format elements. As a result, single quotes never need to be escaped!
+**Important**: There is one change that libGDX makes to `MessageFormat`'s syntax, because the default escaping rules have proved to be somewhat confusing to localizers. If you want to use a literal `&#123;` in your string, normally you would need to escape it using single quotes (`'`). In libGDX however, you just double it; for example, `&#123;&#123;0&#125;&#125;` is interpreted as the literal string `&#123;0&#125;`, without any format elements. As a result, single quotes never need to be escaped!
 
 Note that formats are localizable. This means that typed data like numbers, dates and times will be automatically expressed in the typical form of the specific locale. For example, the float number `3.14` becomes `3,14` for the Italian locale; notice the comma in place of the decimal point. (If you're using GWT, there are [some limitations](#gwt-limitations-and-compatibility) to this.)
 
@@ -117,7 +114,7 @@ Plural forms are supported through the standard `choice` format provided by `Mes
 See the [official documentation of the class `java.text.ChoiceFormat`](https://docs.oracle.com/javase/7/docs/api/java/text/ChoiceFormat.html).
 I'm going to show you just an example. Let's consider the following property:
 ````
-collectedCoins=You collected {0,choice,0#no coins|1#one coin|1<{0,number,integer} coins|100<hundreds of coins} along the path.
+collectedCoins=You collected &#123;0,choice,0#no coins|1#one coin|1<&#123;0,number,integer&#125; coins|100<hundreds of coins&#125; along the path.
 ````
 You can retrieve the localized string as usual:
 ````java
@@ -134,14 +131,14 @@ You collected 32 coins along the path.
 You collected hundreds of coins along the path.
 ````
 
-It's worth noting that the choice format can properly handle nested formats as we did with `{0,number,integer}` inside `{0,choice,...}`.
+It's worth noting that the choice format can properly handle nested formats as we did with `&#123;0,number,integer&#125;` inside `&#123;0,choice,...&#125;`.
 
 
 ## GWT Limitations and Compatibility ##
 
 As said before, the I18N system provided by libGDX is cross-platform. However there are some limitations when it comes to the GWT back-end.
 In particular:
-- **Simple format:** The format syntax of `java.text.MessageFormat` is not fully supported. You'll have to stick to a simplified syntax where formats are made only by their index, i.e. `{index}`.
+- **Simple format:** The format syntax of `java.text.MessageFormat` is not fully supported. You'll have to stick to a simplified syntax where formats are made only by their index, i.e. `&#123;index&#125;`.
 Format's type and style are not supported and cannot be used; otherwise an `IllegalArgumentException` is thrown.
 - **Non localizable arguments:** Formats are never localized, meaning that the arguments passed to the `format` method are converted to a string with the `toString` method, so without taking into account the bundle's locale. 
 
@@ -167,5 +164,3 @@ For iOS, you need to specify the supported language in the `Info.plist.xml` file
         <string>es</string>
         <string>de</string>
     </array>
-
-{% endraw %}

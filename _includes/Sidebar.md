@@ -1,3 +1,4 @@
+{% raw %}
 # Table of Contents
 [Wiki Style Guide](wiki-style-guide)
 
@@ -208,3 +209,5 @@
 * [Adding Extensions and 3rd Party Libraries](dependency-management-with-gradle)
 * [Improving Your Gradle Workflow](improving-workflow-with-gradle)
 * [Creating Asset Project in Eclipse](creating-a-separate-assets-project-in-eclipse)
+
+{% endraw %}

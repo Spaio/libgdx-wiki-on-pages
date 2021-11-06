@@ -166,4 +166,4 @@ For iOS, you need to specify the supported language in the `Info.plist.xml` file
         <string>de</string>
     </array>
 
-{% raw %}
+{% endraw %}

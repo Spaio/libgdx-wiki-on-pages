@@ -8,5 +8,6 @@ gist:
   noscript: false
 markdown: GFM
 
+absolute_url: "/wiki"
 
 theme: jekyll-theme-architect

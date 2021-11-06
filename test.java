@@ -27,14 +27,14 @@ public class Main {
 							String title = m.group(1);
 							String link = m.group(1);
 							link = link.replaceAll(" ", "-");
-							m.appendReplacement(sb, "[" + title + "](" + link + ")");
+							m.appendReplacement(sb, "[" + title + "](" + link.toLowerCase() + ")");
 						}
 						m.appendTail(sb);
 						//System.out.println(sb.toString());
 
 						byte[] strToBytes = sb.toString().getBytes();
 
-						Files.write(Paths.get("wiki/" + file.getName()), strToBytes);
+						Files.write(Paths.get("wiki/" + file.getName().toLowerCase()), strToBytes);
 
 					} catch (IOException e) {
 						e.printStackTrace();

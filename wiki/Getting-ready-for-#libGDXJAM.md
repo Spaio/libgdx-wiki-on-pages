@@ -129,7 +129,7 @@ Free game art:
 
 [images/tiled.png](images/tiled.png)
 
-[Overlap2D](https://github.com/UnderwaterApps/overlap2d): open source game editor. Make sure to check the [Overlap2D survival guide for #libGDXJAM](Overlap2D-survival-guide-for-#libGDXJAM).
+[Overlap2D](https://github.com/UnderwaterApps/overlap2d): open source game editor. Make sure to check the [Overlap2D survival guide for #libGDXJAM](overlap2d-survival-guide-for-#libgdxjam).
 
 [images/overlap2d.png](images/overlap2d.png)
 

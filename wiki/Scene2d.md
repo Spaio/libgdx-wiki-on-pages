@@ -1,6 +1,6 @@
 ## Overview ##
 
-scene2d is a 2D scene graph for building applications and UIs using a hierarchy of actors. If you're looking for the UI component of scene2d, see [Scene2d.ui](Scene2d.ui)
+scene2d is a 2D scene graph for building applications and UIs using a hierarchy of actors. If you're looking for the UI component of scene2d, see [Scene2d.ui](scene2d.ui)
 
 Check out [LibGDX.info](https://libgdx.info/basic_action/) for Scene2d examples (Image, Label etc...)
 

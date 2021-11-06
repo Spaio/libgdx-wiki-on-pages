@@ -27,7 +27,7 @@ We then set up alpha testing to output a pixel only when the alpha is greater th
 This process is much the same as for regular [[bitmap fonts|Bitmap Fonts]], but with different settings.
 
   * [[Fire up Hiero|Hiero]] and choose your font and attributes as normal.
-  * In the "Effects" list on the right, double-click "Distance field". (If there is no filter called "Distance field", your version of Hiero is too old. Try the nightly build as described on the [Hiero](Hiero) page.)
+  * In the "Effects" list on the right, double-click "Distance field". (If there is no filter called "Distance field", your version of Hiero is too old. Try the nightly build as described on the [Hiero](hiero) page.)
   * Remove the default "Color" effect by clicking the X.
   * Set the color of the distance field if you like. It is best to leave this set to white, because you can change the color at rendering time.
   * Set the "Spread" to a suitable value. It should be about half the width of the thickest lines in your font, in pixels. At most, there should be small regions of bright white; don't lose too much contrast.

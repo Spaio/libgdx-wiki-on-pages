@@ -1,4 +1,4 @@
-use a [Spritebatch, Textureregions, and Sprites](Spritebatch,-Textureregions,-and-Sprites)
+use a [Spritebatch, Textureregions, and Sprites](spritebatch,-textureregions,-and-sprites)
 
 # TextureRegion
 

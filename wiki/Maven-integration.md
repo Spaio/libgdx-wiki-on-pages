@@ -128,7 +128,7 @@ Once the plugins are installed, you can import your Maven libGDX projects by goi
 
 *Note* that the HTML project might not be recognized as a GWT project by Eclipse. To fix this, right click the project, go to *Properties -> Google -> Web Toolkit*. Check "Use Google Web Toolkit". Then go to *Properties -> Google -> Web Application*, check "This project has a WAR directory", specify `target/webapp` and finally check "Launch and deploy from this directory".
 
-From there on you can [Project Setup, Running & Debugging](Project-Setup,-Running-&-Debugging) just as you'd do if you setup your projects via the gdx-setup-ui. 
+From there on you can [Project Setup, Running & Debugging](project-setup,-running-&-debugging) just as you'd do if you setup your projects via the gdx-setup-ui. 
 
 If you change anything in the assets, you need to run "mvn -Phtml package" again and refresh the html project in Eclipse.
 

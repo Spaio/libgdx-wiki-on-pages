@@ -39,7 +39,7 @@ First an [Lwjgl3ApplicationConfiguration](https://github.com/libgdx/libgdx/blob/
 
 Once the configuration object is set, an `Lwjgl3Application` is instantiated. The `MyGdxGame()` class is the ApplicationListener implementing the game logic. 
 
-From there on a window is created and the ApplicationListener is invoked as described in [The Life-Cycle](The-Life-Cycle)
+From there on a window is created and the ApplicationListener is invoked as described in [The Life-Cycle](the-life-cycle)
 
 #### Common issues:
 
@@ -89,7 +89,7 @@ First an [LwjglApplicationConfiguration](https://github.com/libgdx/libgdx/tree/m
 
 Once the configuration object is set, an `LwjglApplication` is instantiated. The `MyGdxGame()` class is the ApplicationListener implementing the game logic. 
 
-From there on a window is created and the ApplicationListener is invoked as described in [The Life-Cycle](The-Life-Cycle)
+From there on a window is created and the ApplicationListener is invoked as described in [The Life-Cycle](the-life-cycle)
 
 #### Common issues:
 
@@ -257,7 +257,7 @@ public class MyLiveWallpaper extends AndroidLiveWallpaperService {
 
 You can optionally subscribe to Live Wallpaper-specific events by implementing `AndroidWallpaperListener` with your
 `ApplicationListener` class. `AndroidWallpaperListener` is not available from the `core` module, so you can either 
-follow the strategy outlined in [Interfacing With Platform-Specific Code](Interfacing-With-Platform-Specific-Code), or you can manage it just from the `android`
+follow the strategy outlined in [Interfacing With Platform-Specific Code](interfacing-with-platform-specific-code), or you can manage it just from the `android`
 module by subclassing your `ApplicationListener` like this:
 
 ```java
@@ -293,7 +293,7 @@ public class MyLiveWallpaper extends AndroidLiveWallpaperService {
 Coming in libGDX 1.9.12, or available from -SNAPSHOT now, you can also report the dominant colors of the wallpaper to 
 the OS. Starting with Android 8.1, this is used by some Android launchers and lock screens for styling, such as changing 
 the text color of the clock. You can create a method like this to report the colors, and access it from the core module
-using the strategy from [Interfacing With Platform-Specific Code](Interfacing-With-Platform-Specific-Code):
+using the strategy from [Interfacing With Platform-Specific Code](interfacing-with-platform-specific-code):
 
 ```java
 public void notifyColorsChanged (Color primaryColor, Color secondaryColor, Color tertiaryColor) {

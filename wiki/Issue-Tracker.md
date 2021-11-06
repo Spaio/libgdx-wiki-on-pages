@@ -2,7 +2,7 @@ If you have been sent to this page it is because you have posted something on th
 
 ## What do I do now? ##
 
-If you need help, we have an extensive guide called [Getting Help](Getting-Help). Read it. If you have questions you need to ask, the fastest way to get help is our official [Discord server](https://libgdx.com/community/discord/).
+If you need help, we have an extensive guide called [Getting Help](getting-help). Read it. If you have questions you need to ask, the fastest way to get help is our official [Discord server](https://libgdx.com/community/discord/).
 
 ## Why are you doing this to me? ##
 

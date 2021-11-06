@@ -1,7 +1,7 @@
 A libGDX application has a well defined life-cycle, governing the states of an application, like creating, pausing and resuming, rendering and disposing the application.
 
 ## ApplicationListener
-An application developer hooks into these life-cycle events by implementing the [ApplicationListener](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/ApplicationListener.html) interface and passing an instance of that implementation to the `Application` implementation of a specific back-end (see [The Application Framework](The-Application-Framework)). From there on, the `Application` will call the `ApplicationListener` every time an application level event occurs. A bare-bones `ApplicationListener` implementation may look like this:
+An application developer hooks into these life-cycle events by implementing the [ApplicationListener](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/badlogic/gdx/ApplicationListener.html) interface and passing an instance of that implementation to the `Application` implementation of a specific back-end (see [The Application Framework](the-application-framework)). From there on, the `Application` will call the `ApplicationListener` every time an application level event occurs. A bare-bones `ApplicationListener` implementation may look like this:
 
 ```java
 public class MyGame implements ApplicationListener {

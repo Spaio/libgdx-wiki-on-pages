@@ -502,4 +502,4 @@ Prior to 1.9.10, it is best to copy all `getPreloaderCallback()` content from li
 
 Note that you can only use pure GWT facilities to display the loading screen, libGDX APIs will only be available after the preloading is complete.
 
-[[Prev|Modules Overview]] | [[Next|Querying]]
+[Prev](modules-overview) | [Next](querying)

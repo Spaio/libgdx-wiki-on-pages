@@ -12,7 +12,7 @@ Jython can be worked on with any text editor, including Vim or Emacs. [PyDev](ht
 
 ## Coding With Python ##
 
-The entirety of the [[Drop Tutorial | A Simple Game]] can be contained into a single python file.
+The entirety of the [Drop Tutorial](a-simple-game) can be contained into a single python file.
 
 
 ```python

@@ -48,4 +48,4 @@ libGDX is event driven by nature, mostly due to the way Android and Javascript w
 ## See also
 [libGDX and Android lifecycle](http://bitiotic.com/blog/2013/05/23/libgdx-and-android-application-lifecycle/) if you are aiming for Android. The article also explains why you should not use static variables.
 
-[[Prev|The application framework]] | [[Next|Modules overview]]
+[Prev](the-application-framework) | [Next](modules-overview)

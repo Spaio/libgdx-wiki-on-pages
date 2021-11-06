@@ -12,7 +12,7 @@ libGDX provides a [GestureDetector](http://libgdx.badlogicgames.com/nightlies/do
   * **zoom**: A user places two fingers on the screen and moves them together/apart. The detector will report both the initial and current distance between fingers in pixels. Useful to implement camera zooming.
   * **pinch**: Similar to zoom. The detector will report the initial and current finger positions instead of the distance. Useful to implement camera zooming and more sophisticated gestures such as rotation.
 
-A `GestureDetector` is an [[event handler | Event Handling]] in disguise. To listen for gestures, one has to implement the [GestureListener](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/input/GestureDetector.GestureListener.html) interface and pass it to the constructor of the `GestureDetector`. The detector is then set as an InputProcessor, either on an InputMultiplexer or as the main InputProcessor:
+A `GestureDetector` is an [event handler](event-handling) in disguise. To listen for gestures, one has to implement the [GestureListener](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/input/GestureDetector.GestureListener.html) interface and pass it to the constructor of the `GestureDetector`. The detector is then set as an InputProcessor, either on an InputMultiplexer or as the main InputProcessor:
 
 ```java
 public class MyGestureListener implements GestureListener{
@@ -80,4 +80,4 @@ As with the events reported to a normal `InputProcessor`, the respective methods
 
 The `GestureDetector` also has a second constructor that allows it to specify various parameters for gesture detection. Please refer to the [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/input/GestureDetector.html#GestureDetector(float,%20float,%20float,%20float,%20com.badlogic.gdx.input.GestureDetector.GestureListener)) for more information.
 
-[[Prev|Controllers]] | [[Next|Simple Text Input]]
+[Prev](controllers) | [Next](simple-text-input)

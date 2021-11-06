@@ -125,13 +125,13 @@
   * [Physics](physics)
     * [Box2D](box2d)    
     * [Bullet Physics](bullet-physics)
-      * [[Setup|Bullet Wrapper - Setup]]
-      * [[Using the Wrapper|Bullet Wrapper - Using the wrapper]]
-      * [[Using Models|Bullet Wrapper - Using models]]
-      * [[Contact Callbacks|Bullet Wrapper - Contact callbacks]]
-      * [[Custom Classes|Bullet Wrapper - Custom classes]]
-      * [[Debugging|Bullet Wrapper - Debugging]]
-  * [[Publishing Your Own Extensions|Third Party Extension Support]]
+      * [Setup](bullet-wrapper---setup)
+      * [Using the Wrapper](bullet-wrapper---using-the-wrapper)
+      * [Using Models](bullet-wrapper---using-models)
+      * [Contact Callbacks](bullet-wrapper---contact-callbacks)
+      * [Custom Classes](bullet-wrapper---custom-classes)
+      * [Debugging](bullet-wrapper---debugging)
+  * [Publishing Your Own Extensions](third-party-extension-support)
 * [Using libGDX With Other JVM Languages](using-libgdx-with-other-jvm-languages)
   * [Using libGDX With Clojure](using-libgdx-with-clojure)
   * [Using libGDX With Kotlin](using-libgdx-with-kotlin)
@@ -152,7 +152,7 @@
 * [Java Development Kit - Selection](java-development-kit---selection)
 * [Deploying Your Application](deploying-your-application)
 * [Coordinate systems](coordinate-systems)
-* [[Updating Your libGDX Version|Updating libGDX]]
-* [[Adding Extensions and 3rd Party Libraries|Dependency management with Gradle]]
-* [[Improving Your Gradle Workflow|Improving-workflow-with-Gradle]]
-* [[Creating Asset Project in Eclipse|Creating-a-Separate-Assets-Project-in-Eclipse]]
+* [Updating Your libGDX Version](updating-libgdx)
+* [Adding Extensions and 3rd Party Libraries](dependency-management-with-gradle)
+* [Improving Your Gradle Workflow](improving-workflow-with-gradle)
+* [Creating Asset Project in Eclipse](creating-a-separate-assets-project-in-eclipse)

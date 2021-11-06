@@ -18,7 +18,7 @@ libGDX abstracts unified handling of mouse and touch input. We view mouse input 
 
 Note that on Android the coordinate system is either relative to portrait or landscape mode, depending on what you set for your application.
 
-Mouse and touch input can either be [[polled | Polling]] or processed via [Event Handling](event-handling)
+Mouse and touch input can either be [polled](polling) or processed via [Event Handling](event-handling)
 
 ### Touch Point  ###
 
@@ -119,4 +119,4 @@ public class SimplerTouchTest extends ApplicationAdapter implements InputProcess
 }
 ```
 
-[[Prev|Configuration and Querying]] | [[Next|Polling]]
+[Prev](configuration-and-querying) | [Next](polling)

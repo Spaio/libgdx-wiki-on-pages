@@ -21,6 +21,6 @@ The following diagram shows the orthogonal projection.
 
 [images/screen-and-viewport2.png](images/screen-and-viewport2.png)
 
-For examples on how to work with the viewport, refer to [[this page | Projection, Viewport, & Camera]] where the notions are presented extensively with great examples.
+For examples on how to work with the viewport, refer to [this page](projection,-viewport,-&-camera) where the notions are presented extensively with great examples.
 
 To learn how to use the [Orthographic Camera](orthographic-camera) for simple 2D worlds.

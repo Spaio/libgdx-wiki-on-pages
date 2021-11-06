@@ -18,7 +18,7 @@ libGDX was born 3 years ago, out of a desire to target multiple platforms with a
 
 libGDX has achieved wide adoption, especially on Android where it is powering [3.2% of all installed applications](http://www.appbrain.com/stats/libraries/details/libgdx/libgdx), with numerous top-grossing games. On that platform it can already compete with Unity3D.
 
-Our [[Community | Community & Support]] as well as the entire libGDX development team are looking forward to welcome you among us. Contribute to powering thousands of applications and bringing joy to millions of users!
+Our [Community](community-&-support) as well as the entire libGDX development team are looking forward to welcome you among us. Contribute to powering thousands of applications and bringing joy to millions of users!
 
 ## Information for Students ##
 As a student you may ask yourself why you should take part in libGDX's Google Summer of Code effort. Here we try to give you some food for thought that may help you decide whether you want to apply for our project.
@@ -41,11 +41,11 @@ Finally, and maybe most importantly, libGDX means games. Many of the libGDX team
 The ideas below have been compiled by the libGDX contributors and community. If you want to pick any of those for your proposal, or come up with your own idea, it's best to get to know libGDX and the backing technologies before starting with your proposal. That let's you better estimate what is needed to finish a specific project. If you plan on applying for libGDX for your GSoC project you should follow these steps:
 
   1. Fork the project on [Github](https://www.github.com/libgdx/libgdx).
-  2. Get familiar on how to work with [[libgdx's source | Running demos & tests]].
+  2. Get familiar on how to work with [libgdx's source](running-demos-&-tests).
   3. Register on the forums and introduce yourself. Drop by on IRC (#libgdx, irc.freenode.org), get to know the community. [This forum thread](https://web.archive.org/web/20200928221625/https://www.badlogicgames.com/forum/viewtopic.php?f=11&t=7889) is where most of the GSoC students introduced themselves so far, make sure to subscribe to it to receive notifications for new messages. The subscribe button is at the bottom of the page.
   4. Pick one of the project ideas below or come up with your own. Prepare your application using our [student application template] (FIXME (todo)). You'll have to submit this application via the [Google Summer of Code 2013 site](http://www.google-melange.com/), from April 22 - May 3, 2013. You'll also need to sign the [Student Participation Agreement](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/student_agreement). For more information on the process, read the [GSoC FAQ](http://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2013/help_page). Reading it is mandatory!
   5. Get in contact with the mentors listed below, on IRC (irc.freenode.org, #libgdx) or the forums. Our mentors introduce themselves on this [Wiki page](GoogleSummerOfCode2013Mentors) (FIXME (todo)).
-  6. Send a pull request for some issue or improvement you made to libGDX on Github, note that in your application. When selecting students, we'll favor those that already demonstrated that they can interact with our community and read the docs on [[how to contribute | Contributing]]
+  6. Send a pull request for some issue or improvement you made to libGDX on Github, note that in your application. When selecting students, we'll favor those that already demonstrated that they can interact with our community and read the docs on [how to contribute](contributing)
 
 ## Information for Mentors ##
 Since mentors have quite a bit of responsibility, I (badlogic) would want to limit potential mentors to the group of contributors. Exceptions to this rule may be made of course. Nex and I take on the project administrator role, which is different to that of a mentor.
@@ -253,7 +253,7 @@ This project could be done in collaboration with the Scripting Support project a
 
 (FIXME done with Gradle?)
 
-**Goals**: libGDX projects are usually done with Eclipse in mind. While we support [[Maven | Maven integration]] and other [[IDEs | Using libGDX with intellij idea]] and development environments, integration isn't as straight forward. Maven is problematic due to GWT and Android being somewhat second class citizens in that area. Also, IDE integration of Maven Android and GWT projects is lacking. In addition to IDE woes, packaging and deploying projects can be cumbersome. We'd like to develop a command line application that allows the creation of new libGDX projects, create project files for various IDEs, create POM and Gradle build files, can update dependencies automatically, can remove and add extensions, and package and deploy the application to connected devices. [Loom Engine](http://theengine.co/loom) and [Haxe NME](http://www.nme.io/developer/documentation/getting-started/) provide similar tools.
+**Goals**: libGDX projects are usually done with Eclipse in mind. While we support [Maven](maven-integration) and other [IDEs](using-libgdx-with-intellij-idea) and development environments, integration isn't as straight forward. Maven is problematic due to GWT and Android being somewhat second class citizens in that area. Also, IDE integration of Maven Android and GWT projects is lacking. In addition to IDE woes, packaging and deploying projects can be cumbersome. We'd like to develop a command line application that allows the creation of new libGDX projects, create project files for various IDEs, create POM and Gradle build files, can update dependencies automatically, can remove and add extensions, and package and deploy the application to connected devices. [Loom Engine](http://theengine.co/loom) and [Haxe NME](http://www.nme.io/developer/documentation/getting-started/) provide similar tools.
 
 **Required Skills**: Java, Maven, Gradle, Eclipse, Intellij, Netbeans
 **Links**: [Google Doc with requirements](https://docs.google.com/document/d/1yy3Q5B0K06yz_Oool1ZCtavtSvASJa56lic_5Yg1C9c/edit?usp=sharing)

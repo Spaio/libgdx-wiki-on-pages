@@ -9,7 +9,7 @@ The [Bullet physics library](http://bulletphysics.org/wordpress/) extension is a
 ### Modifying the wrapper ###
 New or modified functionality can be added to the Bullet wrapper by modifying the SWIG interface files in `libgdx/extensions/gdx-bullet/jni/swig`. Consult the SWIG [documentation](http://www.swig.org/Doc1.3/Java.html) for details.
 
-[[Bullet wrapper custom classes | Bullet Wrapper - Custom classes]] which add extra functionality should be put into `libgdx/extensions/gdx-bullet/jni/src/custom`. To use the new classes in Java, include them in the SWIG interface files. 
+[Bullet wrapper custom classes](bullet-wrapper---custom-classes) which add extra functionality should be put into `libgdx/extensions/gdx-bullet/jni/src/custom`. To use the new classes in Java, include them in the SWIG interface files. 
 
 ### Building the Java module ###
 After the SWIG interface files have been modified, build the gdx-bullet Java module.

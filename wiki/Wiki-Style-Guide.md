@@ -13,7 +13,7 @@ We use Markdown in this wiki. To learn your way around this, here is the officia
 
 * Wiki links are made using `[ [` and `] ]` (without the spaces) with a `|` (pipe) to separate text from link. For example:
 
-`[[link text to simple game | A simple game]]` renders this: [[link text to simple game | A simple game]]  
+`[link text to simple game](a-simple-game)` renders this: [link text to simple game](a-simple-game)  
 
 ***Do NOT use conventional \[]() syntax for wiki-links.***
 

@@ -8,7 +8,7 @@ It provides the following features:
 
  * Rotation and scale of a group is applied to all child actors. Child actors always work in their own coordinate system, parent transformations are applied transparently.
 
- * Simplified 2D drawing via [[SpriteBatch | SpriteBatch, TextureRegions, and Sprites]]. Each actor draws in its own un-rotated and unscaled coordinate system where 0,0 is the bottom left corner of the actor.
+ * Simplified 2D drawing via [SpriteBatch](spritebatch,-textureregions,-and-sprites). Each actor draws in its own un-rotated and unscaled coordinate system where 0,0 is the bottom left corner of the actor.
 
  * Hit detection of rotated and scaled actors. Each actor determines if it is hit using its own un-rotated and unscaled coordinate system.
 

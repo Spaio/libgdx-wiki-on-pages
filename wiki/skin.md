@@ -15,7 +15,7 @@ The Skin class stores resources for UI widgets to use. It is a convenient contai
 
 Skin files from the [libGDX tests](https://github.com/libgdx/libgdx/tree/master/tests/gdx-tests-android/assets/data) can be used as a starting point. You will need: `uiskin.png`, `uiskin.atlas`, `uiskin.json`, and `default.fnt`. This enables you to quickly get started using `scene2d.ui` and replace the skin assets later.
 
-Resources in a skin typically come from a [[texture atlas| Texture-packer#textureatlas]], widget styles and other objects defined using JSON, and objects added to the skin via code. Even when JSON is not used, it is still recommended to use Skin with a texture atlas and objects added via code. This is much more convenient to obtain instances of drawables and serves as a central place to obtain UI resources.
+Resources in a skin typically come from a [texture atlas](texture-packer#textureatlas), widget styles and other objects defined using JSON, and objects added to the skin via code. Even when JSON is not used, it is still recommended to use Skin with a texture atlas and objects added via code. This is much more convenient to obtain instances of drawables and serves as a central place to obtain UI resources.
 
 Useful resources:
 * [Ready to use skins.](https://github.com/czyzby/gdx-skins)
@@ -24,7 +24,7 @@ Useful resources:
 
 ## <a id="Resources"></a>Resources ##
 
-Each resource in the skin has a name and type. The regions from a [[texture atlas| Texture-packer#textureatlas]] can be made available as resources in the skin. Texture regions can be retrieved as a ninepatch, sprite, tiled drawable, or drawable.
+Each resource in the skin has a name and type. The regions from a [texture atlas](texture-packer#textureatlas) can be made available as resources in the skin. Texture regions can be retrieved as a ninepatch, sprite, tiled drawable, or drawable.
 
 ```java
 TextureAtlas atlas = ...
@@ -117,7 +117,7 @@ TextButton button = new TextButton("Click me!", skin);
 
 ## <a id="Skin_JSON"></a>Skin JSON ##
 
-A skin can be [populated programmatically](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/UISimpleTest.java#L37). Alternatively, JSON can be used to describe named objects in the skin. This makes it convenient to define the UI widget styles. Note the JSON does not describe texture regions, ninepatche splits, or other information which comes from the [[texture atlas| Texture Packer]]. However, the JSON may reference the regions, ninepatches, and other resources in the skin by name. The JSON looks like this:
+A skin can be [populated programmatically](https://github.com/libgdx/libgdx/blob/master/tests/gdx-tests/src/com/badlogic/gdx/tests/UISimpleTest.java#L37). Alternatively, JSON can be used to describe named objects in the skin. This makes it convenient to define the UI widget styles. Note the JSON does not describe texture regions, ninepatche splits, or other information which comes from the [texture atlas](texture-packer). However, the JSON may reference the regions, ninepatches, and other resources in the skin by name. The JSON looks like this:
 
 ```
 {

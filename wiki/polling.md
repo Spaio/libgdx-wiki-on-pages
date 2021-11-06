@@ -84,4 +84,4 @@ See the [Buttons](https://libgdx.badlogicgames.com/ci/nightlies/docs/api/com/bad
 
 Note that on Android we only emulate the left mouse button. Any touch event will be interpreted as if it was issued with a left mouse button press. Touch screens obviously don't have a notion of left, right and middle button.
 
-[[Prev|Mouse, Touch and Keyboard]] | [[Next|Event Handling]]
+[Prev](mouse,-touch-and-keyboard) | [Next](event-handling)

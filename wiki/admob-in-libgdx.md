@@ -13,7 +13,7 @@ This article shows you how to set up AdMob with a libGDX app. This is current ro
 
 I should note that this isn't the only way to make this work. But it's one approach that worked for me, so I decided to share it in the hopes that others might find it useful as well.
 
-Please note that Google have deprecated 6.4.1 and earlier SDKs. For notes on how to use the new Google Mobile Ads approach, please see [[Google Mobile Ads | Google Mobile Ads in libGDX (replaces deprecated AdMob)]]. Thankfully the changes are very minimal from a developer/implementation point of view.
+Please note that Google have deprecated 6.4.1 and earlier SDKs. For notes on how to use the new Google Mobile Ads approach, please see [Google Mobile Ads](google-mobile-ads-in-libgdx-(replaces-deprecated-admob)). Thankfully the changes are very minimal from a developer/implementation point of view.
 
 
 # Background #

@@ -9,9 +9,9 @@ These tutorials provide an introduction in using the Bullet wrapper:
 * [Part2: rigid body dynamics](https://xoppa.github.io/blog/using-the-libgdx-3d-physics-bullet-wrapper-part2/)
 
 # <a id="Using_Bullet_in_your_project"></a>Using Bullet in your project #
-* [[Setup|Bullet Wrapper - Setup]]
-* [[Using the wrapper|Bullet Wrapper - Using the wrapper]]
-* [[Using models|Bullet Wrapper - Using models]]
-* [[Contact callbacks|Bullet Wrapper - Contact callbacks]]
-* [[Custom classes|Bullet Wrapper - Custom classes]]
-* [[Debugging|Bullet Wrapper - Debugging]]
+* [Setup](bullet-wrapper---setup)
+* [Using the wrapper](bullet-wrapper---using-the-wrapper)
+* [Using models](bullet-wrapper---using-models)
+* [Contact callbacks](bullet-wrapper---contact-callbacks)
+* [Custom classes](bullet-wrapper---custom-classes)
+* [Debugging](bullet-wrapper---debugging)

@@ -34,4 +34,4 @@ Supported system cursors are the
 
 cursors.
 
-[[Prev|Vibrator]] | [[Next|Back and Menu Key Catching]]
+[Prev](vibrator) | [Next](back-and-menu-key-catching)

@@ -80,7 +80,7 @@ To specify a render call, libGDX contains the [Renderable](http://libgdx.badlogi
 The `render(...)` method of `ModelBatch` has many signatures (variations with different method arguments), one of which is `ModelBatch.render(Renderable);`. Using this method you can directly specify the render call you want to add to the ModelBatch. The other `render(...)` methods allow you to specify one or more render calls using a `RenderableProvider`. In those methods, the other arguments let you provide default values for those render calls. For example, when using the `ModelBatch#render(RenderableProvider, Environment, Shader)` method it will set (override) the `environment` and `shader` members of every `Renderable` the `RenderableProvider` provides.
 
 ## RenderableProvider
-[`RenderableProvider`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/RenderableProvider.html) ([code](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/RenderableProvider.java)) is an interface which you can implement to supply one or more `Renderable` instances. Probably the most common implementation of this interface is the [`ModelInstance`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelInstance.html) class, which traverses all [[nodes | Models#nodes]] ([[parts | Models#nodepart]]) and translates them into a `Renderable` instance. However, you can use the `RenderableProvider` anyway you need. For example, when creating a voxel engine, you could create a `Renderable` for each chunk. Or when using an entity component system, you could use `RenderableProvider` as component.
+[`RenderableProvider`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/RenderableProvider.html) ([code](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/graphics/g3d/RenderableProvider.java)) is an interface which you can implement to supply one or more `Renderable` instances. Probably the most common implementation of this interface is the [`ModelInstance`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/ModelInstance.html) class, which traverses all [nodes](models#nodes) ([parts](models#nodepart)) and translates them into a `Renderable` instance. However, you can use the `RenderableProvider` anyway you need. For example, when creating a voxel engine, you could create a `Renderable` for each chunk. Or when using an entity component system, you could use `RenderableProvider` as component.
 
 `RenderableProvider` only has one method:
 ```java
@@ -117,7 +117,7 @@ public static class MyShaderProvider extends DefaultShaderProvider {
 	}
 }
 ```
-Here the [[Material | Material-and-environment]] is used to decide whether the custom shader should be used. This is the preferred and easiest method. However, you can use any value, including the generic [`renderable.userData`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/Renderable.html#userData) to decide which shader to use, as long as its `shader.canRender(renderable)` method returns true for the given renderable.
+Here the [Material](material-and-environment) is used to decide whether the custom shader should be used. This is the preferred and easiest method. However, you can use any value, including the generic [`renderable.userData`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/Renderable.html#userData) to decide which shader to use, as long as its `shader.canRender(renderable)` method returns true for the given renderable.
 
 ## Default shader
 When you don't specify a custom `ShaderProvider`, then `ModelBatch` will use the `DefaultShaderProvider`. This provider creates a new [`DefaultShader`](http://libgdx.badlogicgames.com/nightlies/docs/api/com/badlogic/gdx/graphics/g3d/shaders/DefaultShader.html) instance when needed. 
@@ -222,7 +222,7 @@ program.setUniformi(uniformLocation, context.textureBinder.bind(texture));
 ```
 
 ### TextureDescriptor
-The api often uses a `TextureDescriptor` when specifying a texture. This is because you might want to use a texture but do require specific context properties. These properties currently include the minification and magnification filters, as well as the horizontal wrapping and vertical wrapping. Therefor the TextureDescriptor is also used by e.g. the [[TextureAttribute | Material-and-environment#textureattribute]] and [[CubemapAttribute | Material-and-environment#cubemapattribute]]. For convenience, TextureBinder allows you to directly specify a TextureDescriptor:
+The api often uses a `TextureDescriptor` when specifying a texture. This is because you might want to use a texture but do require specific context properties. These properties currently include the minification and magnification filters, as well as the horizontal wrapping and vertical wrapping. Therefor the TextureDescriptor is also used by e.g. the [TextureAttribute](material-and-environment#textureattribute) and [CubemapAttribute](material-and-environment#cubemapattribute). For convenience, TextureBinder allows you to directly specify a TextureDescriptor:
 ```java
 program.setUniformi(uniformLocation, context.textureBinder.bind(
     (TextureAttribute)(renderable.material.get(TextureAttribute.Diffuse)))

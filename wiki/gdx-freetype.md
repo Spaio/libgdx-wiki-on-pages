@@ -1,6 +1,6 @@
 # Introduction #
 
-If you want to draw text in your game, you usually use a [[BitmapFont | Bitmap Fonts]].
+If you want to draw text in your game, you usually use a [BitmapFont](bitmap-fonts).
 However, there is a downside:
 
 * **BitmapFonts rely on an image, so you have to scale them if you want a different size, which may look ugly.**

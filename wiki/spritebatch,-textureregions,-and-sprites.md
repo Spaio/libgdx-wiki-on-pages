@@ -10,7 +10,7 @@ It is very common to draw a texture mapped to rectangular geometry. It is also v
 
 `SpriteBatch` is given a texture and coordinates for each rectangle to be drawn. It collects the geometry without submitting it to the GPU. If it is given a texture different than the last texture, then it binds the last texture, submits the collected geometry to be drawn, and begins collecting geometry for the new texture.
 
-Changing textures every few rectangles that are drawn prevents `SpriteBatch` from batching much geometry. Also, binding a texture is a somewhat expensive operation. For these reasons, it is common to store many smaller images in a larger image and then draw regions of the larger image to both maximize geometry batching and avoid texture changes. See [[TexturePacker | Texture Packer]] for more information.
+Changing textures every few rectangles that are drawn prevents `SpriteBatch` from batching much geometry. Also, binding a texture is a somewhat expensive operation. For these reasons, it is common to store many smaller images in a larger image and then draw regions of the larger image to both maximize geometry batching and avoid texture changes. See [TexturePacker](texture-packer) for more information.
 
 ## SpriteBatch ##
 

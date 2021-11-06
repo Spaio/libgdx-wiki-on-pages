@@ -162,4 +162,4 @@ Then, in your Input processor:
     }
 ```
 
-[[Prev|Polling]] | [[Next|Controllers]]
+[Prev](polling) | [Next](controllers)

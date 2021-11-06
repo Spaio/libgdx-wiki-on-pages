@@ -11,6 +11,8 @@ import java.util.regex.Pattern;
 public class Main {
 
 
+	// TO-DO строки надо транковать для ссылок
+	// Сделать для смежных |
 
 
 	public static void main(String[] args) {
@@ -20,18 +22,65 @@ public class Main {
 				if (file.getName().matches(".*\\.md")) {
 					try {
 						System.out.println("Processing " + file.getName());
+
 						String content = new String(Files.readAllBytes(Paths.get(file.getPath())));
-						Pattern p = Pattern.compile("\\[\\[(.((?!\\|).)*)\\]\\]");
+						Pattern p = Pattern.compile("\\[\\[(.*?)\\|(.*?)\\]\\]");
 						Matcher m = p.matcher(content);
 						StringBuffer sb = new StringBuffer();
+
 						while (m.find()) {
-							String title = m.group(1);
-							String link = m.group(1);
+							// Source format:
+							// [[Top Article]]
+
+							// Target format:
+							// [Top Article](top-article)
+
+							// There could be links with extra spaces at sides
+							// Actual files dont have it
+							// Title is a file link
+							String title = m.group(1).trim();
+
+							// All files force lowercased.
+							// There were different formats used like [[Top Article]]
+							// meanwhile file is Top-article
+							String link = m.group(2).trim().toLowerCase();
+
+							// Replacing spaces from title to dashes
 							link = link.replaceAll(" ", "-");
-							m.appendReplacement(sb, "[" + title + "](" + link.toLowerCase() + ")");
+
+							m.appendReplacement(sb, "[" + title + "](" + link + ")");
 						}
 						m.appendTail(sb);
-						//System.out.println(sb.toString());
+
+						content = sb.toString();
+
+						p = Pattern.compile("\\[\\[(.((?!\\|).)*)\\]\\]");
+						m = p.matcher(content);
+						sb = new StringBuffer();
+
+						while (m.find()) {
+							// Source format:
+							// [[Top Article]]
+
+							// Target format:
+							// [Top Article](top-article)
+
+							// There could be links with extra spaces at sides
+							// Actual files dont have it
+							// Title is a file link
+							String title = m.group(1).trim();
+
+							// All files force lowercased.
+							// There were different formats used like [[Top Article]]
+							// meanwhile file is Top-article
+							String link = title.toLowerCase();
+
+							// Replacing spaces from title to dashes
+							link = link.replaceAll(" ", "-");
+
+							m.appendReplacement(sb, "[" + title + "](" + link + ")");
+						}
+						m.appendTail(sb);
 
 						byte[] strToBytes = sb.toString().getBytes();
 

@@ -2,7 +2,7 @@
 
 scene2d is libGDX's 2D scene graph. At its core, it provides basic 2D scene graph functionality: actors, groups, drawing, events, and actions. This is a lot of utility that applications can leverage, but it is reasonably low level. For games this is fine because most actors are application specific. For building UIs, the scene2d.ui package provides common UI widgets and other classes built on top of scene2d.
 
-It is highly recommended to read or least skim the [[scene2d documentation|scene2d]] before continuing.
+It is highly recommended to read or least skim the [scene2d documentation](scene2d) before continuing.
 
 Check out [libGDX.info](https://libgdx.info/) for examples showcasing Scene2d actors, scenes, Stages Images etc..
 
@@ -101,7 +101,7 @@ public void dispose() {
 
 Note that `setFillParent` is used on the root table, causing it to be sized to its parent (in this case, the stage) when validated. Normally a widget's size is set by its parent and `setFillParent` must not be used. `setFillParent` is for convenience only when the widget's parent does not set the size of its children (such as the stage).
 
-Tables automatically adapt to various screen resolutions, so this sets up a stage that uses pixel coordinates. See [[stage viewport setup|Scene2d#viewport]] for setting up a stage that scales.
+Tables automatically adapt to various screen resolutions, so this sets up a stage that uses pixel coordinates. See [stage viewport setup](scene2d#viewport) for setting up a stage that scales.
 
 ## <a id="Skin"></a>Skin ##
 
@@ -130,7 +130,7 @@ table.add(button2);
 
 Note the same style can be used for multiple widgets. Also note that all images needed by UI widgets are actually implementations of the Drawable interface.
 
-The Skin class can be used to more conveniently define the styles and other resources for UI widgets. See the [[Skin documentation|Skin]] for more information. It is very strongly recommended to use Skin for convenience, even if not defining styles via JSON.
+The Skin class can be used to more conveniently define the styles and other resources for UI widgets. See the [Skin documentation](skin) for more information. It is very strongly recommended to use Skin for convenience, even if not defining styles via JSON.
 
 ## <a id="Drawable"></a>Drawable ##
 

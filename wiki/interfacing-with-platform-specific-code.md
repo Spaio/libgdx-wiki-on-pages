@@ -81,7 +81,7 @@ public class MyGame implements ApplicationListener {
 }
 ```
 
-In each [[starter class | Starter classes and configuration]] we then simply instantiate `MyGame`, passing the corresponding Leaderboard implementation as an argument, e.g., on the desktop:
+In each [starter class](starter-classes-and-configuration) we then simply instantiate `MyGame`, passing the corresponding Leaderboard implementation as an argument, e.g., on the desktop:
 
 ```java
 public static void main(String[] argv) {

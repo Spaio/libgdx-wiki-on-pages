@@ -23,4 +23,4 @@ where `logLevel` can be one of the following values:
   * Application.LOG_ERROR: logs only error messages.
   * Application.LOG_INFO: logs error and normal messages.
 
-[[Prev|Querying]] | [[Next|Threading]]
+[Prev](querying) | [Next](threading)

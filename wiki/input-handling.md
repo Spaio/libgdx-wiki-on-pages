@@ -12,4 +12,4 @@ All of the input facilities are accessed via the [Input](https://github.com/libg
 ```
 
 
-[[Next|https://github.com/libgdx/libgdx/wiki/Configuration-and-querying]]
+[Next](https://github.com/libgdx/libgdx/wiki/configuration-and-querying)

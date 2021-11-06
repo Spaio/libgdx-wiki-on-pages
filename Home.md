@@ -16,6 +16,8 @@
  </style>
 {% include_relative Hiero.md %}
  
+{% include Sidebar.md %}
+
  <div class="wrapper">
  
  <div class="one>

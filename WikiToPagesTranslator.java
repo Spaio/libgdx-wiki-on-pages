@@ -101,11 +101,18 @@ public class WikiToPagesTranslator {
 						} else {
 							Files.write(Paths.get("wiki/" + filename), strToBytes);
 						}
+						
+						// Home.md is a root file for libgdx wiki
+						// It should be duplicated to index.md to allow access the wiki 
+						// without specifying /home.md
+						// The original home.md remains to not broke links
+						if (filename.equals("home.md")) {
+							Files.write(Paths.get("wiki/index.md"), strToBytes);							
+						}
 
 					} catch (IOException e) {
 						e.printStackTrace();
 					}
-					//break;
 				}
 			}
 		}

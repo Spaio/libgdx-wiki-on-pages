@@ -7,5 +7,8 @@ gist:
   noscript: false
 markdown: GFM
 
+remote_theme: pages-themes/primer@v0.2.0
+plugins:
+- jekyll-remote-theme
 
 #theme: jekyll-theme-architect

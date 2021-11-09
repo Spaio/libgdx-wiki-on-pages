@@ -28,21 +28,21 @@
     <div class="clearfix">
       
       
-      <div class="col-8 float-left border p-4">
+      <div class="col-9 float-left border p-4">
         {{ content }}
       </div>
-      <div class="col-4 float-left border p-4">
+      <div class="col-3 float-left border p-4">
           {% capture my_include %}{% include sidebar.md %}{% endcapture %}
 {{ my_include | markdownify }}
       </div>
 
+    </div>
 
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
-    </div>
     
     <div id="content-wrapper">
       <div class="inner clearfix">

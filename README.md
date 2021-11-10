@@ -3,7 +3,7 @@
 This project is made to replicate Github Wikis using Github Pages.
 The Github Wiki is not getting indexed by search engines. [See discussion](https://github.com/isaacs/github/issues/1683)
 
-[Click this link to see the result in browser](https://spaio.github.io/libgdx-wiki-on-pages/wiki/)
+[Click this link to see resulting Website in browser](https://spaio.github.io/libgdx-wiki-on-pages/wiki/)
 
 It is planned to included multiple repository Wikis into this one.
 - Libgdx Wiki (possibly would be merged into Libgdx website)

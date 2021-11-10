@@ -1,1 +1,7 @@
 wiki_src/*
+_site
+*.gem
+Gemfile.lock
+*.gem
+.jekyll-cache
+.DS_Store
